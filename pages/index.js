@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <>
       <Layout>
-          <Header />
-            <Languages />
-            <Footer />
+        <Header />
+        <Languages />
+        <Footer />
       </Layout>
     </>
   )

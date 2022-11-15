@@ -1,0 +1,39 @@
+.parallaxSection {
+    display: flex;
+    position: relative;
+
+    .first-image {
+        position: absolute;
+        width: 400px;
+        top: 0;
+        right: 0;
+        z-index: 10;
+    }
+
+    .second-image {
+        position: absolute;
+        width: 300px;
+        top: 140px;
+        right: 170px;
+    }
+
+    &.right {
+        .first-image {
+            right: 0;
+        }
+
+        .second-image {
+            right: 170px;
+        }
+    }
+
+    &.left {
+        .first-image {
+            left: 0;
+        }
+
+        .second-image {
+            left: 170px;
+        }
+    }
+}
