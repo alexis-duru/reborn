@@ -9,30 +9,11 @@ import reborn from '../public/assets/img/home/home.gif';
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
 import Link from 'next/link';
 import FeaturedProducts from '../components/FeaturedProducts';
+import Actualite1 from '../public/assets/icons/reborn-dons.svg'
+import Actualite2 from '../public/assets/icons/reborn-dons.svg'
+import conceptImage from '../public/assets/img/reborn-concept.webp'
 
 export default function Home() {
-  // function swap() {
-  //   gsap.registerEffect({
-  //     name: "swapText",
-  //     effect: (targets, config) => {
-  //       let tl = gsap.timeline({ delay: config.delay });
-  //       tl.to(targets, { opacity: 0, duration: config.duration / 2 });
-  //       tl.add(() => targets[0].innerText = config.text);
-  //       tl.to(targets, { opacity: 1, duration: config.duration });
-  //       return tl;
-  //     },
-  //     defaults: { duration: 1 },
-  //     extendTimeline: true
-  //   });
-  //   var tl = gsap.timeline({ repeat: -1 });
-  //   tl.swapText(".subtext", { text: "THE SECOND INFO TEXT 1 IS THIS ONE", delay: 2 })
-  //     .swapText(".subtext", { text: "AND THE THIRD INFO TEXT IS THIS", delay: 2 })
-  //     .swapText(".subtext", { text: "THIS IS INFO TEXT 1", delay: 2 }); // back to the start
-  // }
-
-  // useEffect(() => {
-  //   swap()
-  // }, [])
   function parallax() {
     const body = document.querySelector('body');
     body.classList.add("home")
@@ -55,16 +36,16 @@ export default function Home() {
         <section className="header">
           <div className="header__container">
             <div className="header__content">
-              <Image src={reborn} alt="fleche" className="reborn-logo" />
+              <Image src={reborn} alt="Logo reborn" className="reborn-logo" />
             </div>
           </div>
           <div className="header_bg"></div>
         </section>
 
-        <section className="section-colored dons">
+        <section className="section-colored homepage__section">
           <div className="container">
             <h1>Notre<span className='span-font'> Concept</span></h1>
-            <div className='dons__content'>
+            <div className='homepage__content'>
               <p>Parce qu'on nous met pas à la poubelle quand on se casse une jambe. Reborn retape les objets un peu usées par la vie</p>
               <div className='btn__container'><Link href="/concept" className="btn primary-btn send-btn">
                 Lire plus
@@ -73,10 +54,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-colored dons">
+        <section className="section-colored homepage__section">
           <div className="container">
             <h1>Les<span className="span-font"> petits nouveaux</span></h1>
-            <div className="dons__content">
+            <div className="homepage__content">
               <p>Chez Reborn, nous souhaitons permettre à chacun d'avoir des objets uniques, sans se ruiner et sans acheter du neuf !</p>
               <p>C'est pour cela que nous vous proposons de réparer vos objets d'une manière singulière ou d'acheter des pièces par nos soins à partir de vos dons.</p>
             </div>
@@ -85,7 +66,7 @@ export default function Home() {
         </section>
 
 
-        <section className="section-colored dons">
+        <section className="section-colored homepage__section">
           <div className="container">
             <h1>Fair un<span className='span-font'> don</span></h1>
             <div className="dons__content">
@@ -98,11 +79,24 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-colored dons">
+        <section className="section-colored homepage__section">
           <div className="container">
             <h1>Les<span className="span-font"> actus</span></h1>
-            <div className="dons__content">
+            <div className="homepage__content">
               <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
+            </div>
+            <div className='actus__container'>
+              <div className='actu__container'>
+                <Image src={conceptImage} alt=""></Image>
+                <p className='actu__content'>Les 25 et 26 novembre, c’est la brocante des Quinquonces !
+                  L’équipe Reborn aura un stand autour duquel on pourra discuter et refaire le monde autour de nos toutes dernières créations. Vous aurez aussi la possibilité d’y réparer et personnaliser vos objets fraîchement chinés dans une ambiance conviviale et créative. On vous attend de pied ferme !
+                </p>
+              </div>
+              <div className='actu__container'>
+                <Image src={conceptImage} alt=""></Image>
+                <p className='actu__content'>Les 3 et 4 décembre, c'est la fête chez Reborn ! On vous ouvre nos portes pour que vous puissiez découvrir les métiers associés à la réparation et échanger avec nos équipes sur leur rôle au sein de l'entreprise. On vous attend nombreux !
+                </p>
+              </div>
             </div>
           </div>
         </section>

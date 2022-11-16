@@ -34,7 +34,7 @@ const concept = () => {
                                 </p>
                             </div>
                             <div className="concept__subcontainer-right">
-                                <Image src={conceptImage} alt=""></Image>
+                                <Image src={conceptImage} alt="Photographie d'une table, avec un journal, une tasse et une paire de lunettes"></Image>
                             </div>
                         </div>
                     </div>
