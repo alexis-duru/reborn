@@ -18,12 +18,12 @@ const contact = () => {
                             <p className="content__primary"><strong>*</strong> = Champs obligatoire.
                             </p>
                             <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" className="contact__form" action="/validation-mail"><input type="hidden" name="form-name" value="contact"></input>
-                                <div><label for="firstname">Prénom <strong>*</strong></label> <input id="firstname" name="firstname" placeholder="Votre prénom" required=""></input></div>
-                                <div><label for="lastname">Nom <strong>*</strong></label> <input id="lastname" name="lastname" placeholder="Votre nom" required=""></input></div>
-                                <div><label for="email">Email <strong>*</strong></label> <input id="email" name="email" placeholder="Ex : exemple@gmail.com" required=""></input></div>
-                                <div><label for="phone">Téléphone</label> <input id="phone" name="phone" placeholder="Ex : 05 05 05 05 05"></input></div>
-                                <div><label for="message">Message <strong>*</strong></label> <textarea rows="4" id="message" name="message" placeholder="Votre message" required=""></textarea></div>
-                                <div><label for="rgpd"><input type="checkbox" id="rgpd" name="Gestion des données personnelles" required=""></input>
+                                <div><label htmlFor="firstname">Prénom <strong>*</strong></label> <input id="firstname" name="firstname" placeholder="Votre prénom" required=""></input></div>
+                                <div><label htmlFor="lastname">Nom <strong>*</strong></label> <input id="lastname" name="lastname" placeholder="Votre nom" required=""></input></div>
+                                <div><label htmlFor="email">Email <strong>*</strong></label> <input id="email" name="email" placeholder="Ex : exemple@gmail.com" required=""></input></div>
+                                <div><label htmlFor="phone">Téléphone</label> <input id="phone" name="phone" placeholder="Ex : 05 05 05 05 05"></input></div>
+                                <div><label htmlFor="message">Message <strong>*</strong></label> <textarea rows="4" id="message" name="message" placeholder="Votre message" required=""></textarea></div>
+                                <div><label htmlFor="rgpd"><input type="checkbox" id="rgpd" name="Gestion des données personnelles" required=""></input>
                                     En cochant cette case vous acceptez que vos coordonnées soient
                                     utilisées pour vous répondre.
                                     <Link href="/politique-de-confidentialite"> Notre politique de confidentialité</Link>. <strong>*</strong></label>
