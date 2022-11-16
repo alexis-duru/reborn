@@ -1,21 +1,37 @@
 import Image from 'next/image'
 import logo from '../public/assets/img/logo-reborn.svg'
+import { useEffect } from "react";
 
 export default function Header() {
+    function bg() {
+        const header = document.querySelector('.navbar__home');
+        window.addEventListener('scroll', () => {
+            let scroll = window.scrollY;
+            if (scroll > 60) {
+                header.classList.add('bg')
+            }
+            else {
+                header.classList.remove('bg')
+            }
+        })
+    }
+    useEffect(() => {
+        bg();
+    }, [])
     return (
         <>
-            <section className='navbar'>
-                <div className='navbar__container'>
+            <section className='navbar__home'>
+                <div className='navbar__home__container'>
                     <div>
-                        <a className="navbar__menu">Menu</a>
+                        <a className="navbar__home__menu">Menu</a>
                     </div>
                     <div>
                         <a href="/">
-                            <Image className="navbar__image" src={logo} alt='chair'></Image>
+                            <Image className="navbar__home__image" src={logo} alt='Logo reborn'></Image>
                         </a>
                     </div>
                     <div>
-                        <a className="navbar__menu">Bordeaux</a>
+                        <a className="navbar__home__menu">Bordeaux</a>
                     </div>
                 </div>
             </section>

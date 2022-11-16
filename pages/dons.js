@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import conceptImage from '../public/assets/img/reborn-concept.webp'
+import Footer from '../components/Footer'
 import conceptBackground from '../public/assets/img/reborn-concept-background.webp'
 import Image from 'next/image'
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
@@ -30,6 +30,7 @@ const dons = () => {
                     </div>
                 </section>
             </section>
+            <Footer></Footer>
         </>
     );
 }

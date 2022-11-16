@@ -73,7 +73,7 @@ export default function Home() {
           <div class="content">
             <h2>Faire un <span className='subtext'>don</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a class="btn primary-btn" href="/nos-produits.html">Faire un don</a></div>
+            <div><a class="btn primary-btn" href="/dons">Faire un don</a></div>
 
           </div>
         </section>
