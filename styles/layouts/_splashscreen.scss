@@ -9,9 +9,10 @@
     color: white;
     transition: 1s;
     z-index: 99999999;
+
     ::-webkit-scrollbar {
         display: none;
-      }
+    }
 }
 
 .logo-header {
@@ -21,12 +22,20 @@
     transform: translate(-50%, -50%);
 }
 
+.name__firstpart {
+    font-family: $circe;
+}
+
+.name__secondpart {
+    font-family: $kostania;
+}
+
 .logo {
     position: relative;
     display: inline-block;
     bottom: -20px;
-    opacity: 0;   
-    font-size: 5rem; 
+    opacity: 0;
+    font-size: 5rem;
     font-weight: 600;
 }
 
