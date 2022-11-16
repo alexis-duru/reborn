@@ -9,7 +9,7 @@ export default function Header() {
                     <a href="/">
                         <Image className="navbar__image" src={logo} alt='chair'></Image>
                     </a>
-                    <a class="navbar__menu">Menu</a>
+                    <a className="navbar__menu">Menu</a>
                 </div>
             </section>
         </>

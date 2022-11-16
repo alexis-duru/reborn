@@ -2,6 +2,7 @@
     display: flex;
     position: relative;
 
+
     .first-image {
         position: absolute;
         width: 400px;
@@ -28,6 +29,8 @@
     }
 
     &.left {
+        flex-direction: column-reverse;
+
         .first-image {
             left: 0;
         }
