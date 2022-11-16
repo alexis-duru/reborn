@@ -1,6 +1,6 @@
 ::selection {
     color: $white;
-    background-color: $color2;
+    background-color: $black;
 }
 
 .section {
@@ -47,7 +47,7 @@
 .page__banner {
     height: 160px;
     padding: 4rem;
-    background-color: $color1;
+    background-color: $black;
     margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@
         font-weight: normal;
 
         &:hover {
-            color: $color4;
+            color: $black;
         }
     }
 }
