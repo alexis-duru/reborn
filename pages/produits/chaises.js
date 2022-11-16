@@ -4,7 +4,7 @@ import ScrollGallery from '../../components/ScrollGallery';
 const chaises = () => {
     return (
         <>
-          <ScrollGallery />
+            <ScrollGallery />
         </>
     );
 }
