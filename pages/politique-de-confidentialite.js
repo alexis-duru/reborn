@@ -7,7 +7,7 @@ const politiqueDeConfidentialite = () => {
         <>
             <Navbar></Navbar>
             <section className="section-info"><div className="container">
-                <h1><span className='span-font'>Politique de confidentialite</span></h1>
+                <h1><span className="span-font">Politique de confidentialite</span></h1>
                 <h2>1. Préambule</h2> <p>
                     La présente politique de protection des données à caractère personnel
                     (la « Politique ») a été rédigée pour vous permettre de prendre
