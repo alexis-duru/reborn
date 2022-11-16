@@ -2,9 +2,7 @@ import Layout from '../components/Layout'
 import { useAppContext } from '../AppContext';
 import Image from 'next/image'
 import placeholder from '../public/assets/img/placeholder.png'
-
-import Navbar from '../components/Navbar'
-import logo from '../public/assets/img/logo-reborn.svg'
+import NavbarHome from '../components/NavbarHome'
 import Splashscreen from '../components/Splashscreen';
 
 import Cursor from '../components/Cursor';
@@ -18,17 +16,9 @@ export default function Home() {
     <>
       <Layout>
         <Cursor />
-        {/* <Splashscreen /> */}
-
+        <Splashscreen />
+        <NavbarHome></NavbarHome>
         <section className='header'>
-          <section className='navbar__header'>
-            <div className='navbar__header__container'>
-              <a href="index.html">
-                <Image className="navbar__header__image" src={logo} alt='chair'></Image>
-              </a>
-              <a class="navbar__header__menu">Menu</a>
-            </div>
-          </section>
           <div className='header__container'>
             <div className='header__content'>
               <h1>Optez pour l'esprit <span>Reborn</span></h1>
