@@ -1,5 +1,5 @@
 import Link from "next/link";
-import fleche from '../public/assets/img/icones/fleche.svg';
+import fleche from '../public/assets/img/icones/Fleche.svg';
 import Image from 'next/image'
 
 const ScrollGallery = () => {
