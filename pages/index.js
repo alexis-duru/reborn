@@ -30,6 +30,17 @@ export default function Home() {
   // useEffect(() => {
   //   swap()
   // }, [])
+  function parallax() {
+    const bg = document.querySelector('.header_bg');
+    window.addEventListener('scroll', () => {
+      let scroll = window.scrollY;
+      bg.style.top = scroll * 0.5 + 'px';
+      bg.style.scale = 1 + (scroll * 0.0005);
+    })
+  }
+  useEffect(() => {
+    parallax();
+  }, [])
   return (
     <>
       <Layout>
@@ -42,34 +53,14 @@ export default function Home() {
               <h1>Re<span className='subtext'>born</span></h1>
             </div>
           </div>
+          <div className='header_bg'></div>
         </section>
-        <section class="about" id="about">
-          <div class="container-row">
-            <div class="about__company-content">
-              <h2>Lorem ipsum dolor set
-                <strong class="strong-green">consecutir</strong> det.
-              </h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-              <div><a class="btn primary-btn" href="/nos-produits.html">Nos produits</a></div>
-            </div>
-            <Image className="about__company-img" src={placeholder} alt='chair'></Image>
-          </div>
-          <div class="container-row">
-            <Image className="about__company-img" src={placeholder} alt='chair'></Image>
-            <div class="about__product-content">
-              <h2>Lorem ipsum dolor set
-                <strong class="strong-green">consecutir</strong> det.
-              </h2>
-              <p>Lorem ipsum dolor sit amet, consectetur <strong>adipiscing elit</strong>. Fermentum, eget penatibus
-                vel lorem arcu nam
-                a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus
-                purus, diam felis ac. Convallis faucibus lectus etiam enim. Nunc ante quis in vitae porttitor a
-                semper amet. Lectus aliquam at <strong>donec purus purus</strong>, diam felis ac. Convallis faucibus
-                lectus etiam
-                enim.Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam
-                felis ac. Convallis faucibus lectus etiam enim.</p>
-              <div><a class="btn primary-btn" href="/nos-produits.html">Nos produits</a></div>
-            </div>
+
+        <section class="home_about" id="about">
+          <div class="about__company-content">
+            <h2>Le <span className='subtext'>concept</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
+            <div><a class="btn primary-btn" href="/nos-produits.html">Decouvrir le concept</a></div>
           </div>
         </section>
         <section class="contact__banner">

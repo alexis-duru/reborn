@@ -1,17 +1,28 @@
 .header {
     padding: 80px 0;
-    min-height: 100vh;
+    min-height: 120vh;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+
+}
+
+.header_bg {
+    position: absolute;
     background: url('../../public/assets/img/home/home.png');
+    min-height: 120vh;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    z-index: -10;
 }
 
 .header__container {
@@ -52,8 +63,40 @@
     right: -60px;
 }
 
+/* about */
+
+.home_about {
+    background-color: $beige;
+    padding: 8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        font-weight: 200;
+        font-size: 4.8rem;
+        color: $primary-color;
+
+        span {
+            font-weight: bold;
+            font-family: $kostania;
+        }
+    }
+
+    .about__company-content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+}
+
 /*Contact banner*/
 .contact__banner {
+    padding: 8rem;
+    background-color: $beige;
+
     @media screen and (max-width: 900px) {
         padding: 0;
     }
