@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Fleche from '../public/assets/img/icones/logo/Fleche.svg'
+
 const ScrollGallery = () => {
 
     if (typeof window !== "undefined") {
@@ -67,51 +70,63 @@ const ScrollGallery = () => {
                     <div className="slider-inner">
                         <div className="wrapper-item">
                         <h2 class="product-number">N°1</h2>
-                            <div className="item">
-                                <div className="wrapper">
-                                    <div className="img"></div>
+                            <Link href="/">
+                                <div className="item">
+                                    <div className="wrapper">
+                                        <div className="img"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div className="wrapper-item">
                         <h2 class="product-number">N°2</h2>
-                            <div className="item">
-                                <div className="wrapper">
-                                    <div className="img"></div>
+                            <Link href="/">
+                                <div className="item">
+                                    <div className="wrapper">
+                                        <div className="img"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div className="wrapper-item">
                         <h2 class="product-number">N°3</h2>
-                            <div className="item">
-                                <div className="wrapper">
-                                    <div className="img"></div>
+                            <Link href="/">
+                                <div className="item">
+                                    <div className="wrapper">
+                                        <div className="img"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div className="wrapper-item">
                         <h2 class="product-number">N°4</h2>
-                            <div className="item">
-                                <div className="wrapper">
-                                    <div className="img"></div>
+                            <Link href="/">
+                                <div className="item">
+                                    <div className="wrapper">
+                                        <div className="img"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div className="wrapper-item">
                         <h2 class="product-number">N°5</h2>
-                            <div className="item">
-                                <div className="wrapper">
-                                    <div className="img"></div>
+                            <Link href="/">
+                                <div className="item">
+                                    <div className="wrapper">
+                                        <div className="img"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                         <div className="wrapper-item">
                         <h2 class="product-number">N°6</h2>
-                            <div className="item">
-                                <div className="wrapper">
-                                    <div className="img"></div>
+                            <Link href="/">
+                                <div className="item">
+                                    <div className="wrapper">
+                                        <div className="img"></div>
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
