@@ -24,7 +24,89 @@ export default function Header() {
             <section className='navbar__home'>
                 <div className='navbar__home__container'>
                     <div>
-                        <a className="navbar__home__menu">Menu</a>
+
+                        <input type="checkbox" id="burger-toggle" />
+            <label htmlFor="burger-toggle" class="burger-menu">
+            <a className="navbar__home__menu">Menu</a>
+            </label>
+            <div class="menu">
+            <div class="menu-inner">
+                <ul class="menu-nav">
+                <li class="menu-nav-item">
+                    <a class="menu-nav-link" href="#">
+                        <span class="barre"></span>
+                        <span>
+                            <div>Concept</div>
+                        </span>
+                    </a>
+                </li>
+
+                <li class="menu-nav-item">
+                    <a class="menu-nav-link" href="#">
+                    <span class="barre"></span>
+                        <span>
+                            <div>Boutique</div>
+                        </span>
+                    </a>
+                </li>
+
+                <li class="menu-nav-item">
+                    <a class="menu-nav-link" href="#">
+                    <span class="barre"></span>
+                        <span>
+                            <div>Personnalisation</div>
+                        </span>
+                    </a>
+                </li>
+
+                <li class="menu-nav-item">
+                    <a class="menu-nav-link" href="#">
+                    <span class="barre"></span>
+                        <span>
+                            <div>Don</div>
+                        </span>
+                    </a>
+                </li>
+
+                    <li class="menu-nav-item">
+                        <a class="menu-nav-link" href="#">
+                        <span class="barre"></span>
+                            <span>
+                                <div>Contact</div>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="gallery">
+                <div class="images">
+                    <a class="image-link" href="#">
+                    <div class="image" data-label="Star">
+                        {/* <img src="https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg" alt=""> */}
+
+                        </div>
+                    </a>
+                    <a class="image-link" href="#">
+                    <div class="image" data-label="Sun">
+                        {/* <img src="https://i.loli.net/2019/11/16/FLnzi5Kq4tkRZSm.jpg" alt=""> */}
+
+                    </div>
+                    </a>
+                    <a class="image-link" href="#">
+                    <div class="image" data-label="Tree">
+                        {/* <img src="https://i.loli.net/2019/10/18/uXF1Kx7lzELB6wf.jpg" alt=""> */}
+
+                        </div>
+                    </a>
+                    <a class="image-link" href="#">
+                    <div class="image" data-label="Sky">
+                        {/* <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" alt="">
+                            */}
+                        </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </div>
                     </div>
                     <div>
                         <a href="/">

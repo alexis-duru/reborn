@@ -5,9 +5,8 @@ import Splashscreen from '../components/Splashscreen';
 import Cursor from '../components/Cursor';
 import Image from 'next/image'
 import { useEffect } from 'react';
-import reborn from '../public/assets/img/home/home.gif'
+import reborn from '../public/assets/img/home/home.gif';
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
-
 
 export default function Home() {
   // function swap() {
@@ -55,11 +54,11 @@ export default function Home() {
           <div className='header__container'>
             <div className='header__content'>
               <Image src={reborn} alt="fleche" className="reborn-logo" />
+
             </div>
           </div>
           <div className='header_bg'></div>
         </section>
-
 
         <section className="section-colored dons">
           <div className="container">
