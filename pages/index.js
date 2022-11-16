@@ -8,6 +8,7 @@ import Splashscreen from '../components/Splashscreen';
 import Cursor from '../components/Cursor';
 import ParallaxSection from '../components/parallaxSection';
 
+
 export default function Home() {
   const { i18n } = useAppContext();
 
