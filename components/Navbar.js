@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import logo from '../public/assets/img/logo-reborn.svg'
 import { useEffect } from "react";
+import Link from 'next/link';
 
 export default function Header() {
     function bg() {

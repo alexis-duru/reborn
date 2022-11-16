@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import conceptBackground from '../public/assets/img/reborn-concept-background.webp'
 import Image from 'next/image'
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
+import Link from 'next/link';
 
 const dons = () => {
     return (
