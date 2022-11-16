@@ -1,9 +1,9 @@
 import Layout from '../components/Layout'
-import Image from 'next/image'
-import placeholder from '../public/assets/img/placeholder.png'
 import NavbarHome from '../components/NavbarHome'
+import Footer from '../components/Footer'
 import Splashscreen from '../components/Splashscreen';
 import Cursor from '../components/Cursor';
+import Image from 'next/image'
 import { useEffect } from 'react';
 import reborn from '../public/assets/img/home/home.gif'
 
@@ -31,6 +31,8 @@ export default function Home() {
   //   swap()
   // }, [])
   function parallax() {
+    const body = document.querySelector('body');
+    body.classList.add('home')
     const bg = document.querySelector('.header_bg');
     window.addEventListener('scroll', () => {
       let scroll = window.scrollY;
@@ -58,20 +60,28 @@ export default function Home() {
         </section>
 
         <section class="home_about" id="about">
-          <div class="about__company-content">
+          <div class="content">
             <h2>Le <span className='subtext'>concept</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a class="btn primary-btn" href="/nos-produits.html">Decouvrir le concept</a></div>
+            <div><a class="btn primary-btn" href="/concept">Decouvrir le concept</a></div>
           </div>
         </section>
-        <section class="contact__banner">
-          <div class="container-row">
-            <div class="banner">
-              <h3>Vous souhaitez plus <strong class="strong-green">d’informations</strong> sur notre démarche ?</h3>
-              <a class="btn primary-btn" href="/contact.html">Contactez-nous</a>
-            </div>
+        <section class="home__products">
+          <div class="content">
+            <h2>Les <span className='subtext'>petits nouveaux</span></h2>
+            <div><a class="btn primary-btn" href="/boutique">Voir les autres produits</a></div>
           </div>
         </section>
+        <section class="home__donates">
+          <div class="content">
+            <h2>Faire un <span className='subtext'>don</span></h2>
+            <div className='dons__icon__container'> <Image src={donsIcon} alt='Icon de dons'></Image></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
+            <div><a class="btn primary-btn" href="/dons">Faire un don</a></div>
+
+          </div>
+        </section>
+        <Footer></Footer>
       </Layout>
     </>
   )

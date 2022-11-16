@@ -1,0 +1,59 @@
+footer {
+    background-color: $primary-color;
+    color: $beige;
+    padding-top: 4rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
+
+    a {
+        color: $beige;
+        font-size: 1.5rem;
+    }
+
+    .footer_infos {
+        display: flex;
+        justify-content: center;
+        gap: 12rem;
+        padding-bottom: 4rem;
+
+        .footer_info {
+            text-align: start;
+            display: flex;
+
+            i {
+                display: block;
+                height: 4rem;
+                width: 4rem;
+            }
+
+            .icon-location {
+                background-image: url("/");
+            }
+
+            .icon-phone {
+                background-image: url("/");
+            }
+
+            a {
+                display: block;
+            }
+        }
+    }
+
+    .credits {
+        display: flex;
+        justify-content: center;
+        gap: 0.8rem;
+
+        * {
+            opacity: .9;
+        }
+
+        a:hover {
+            opacity: 1;
+        }
+
+    }
+
+
+}
