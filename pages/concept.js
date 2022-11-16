@@ -4,10 +4,18 @@ import conceptBackground from '../public/assets/img/reborn-concept-background.we
 import Image from 'next/image'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import Head from 'next/head'
 
 const concept = () => {
     return (
         <>
+            <Head>
+                <title>Le concept - reborn</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Le concept - reborn" key="title" />
+                <meta property="og:description" content="Il est simple : donner une seconde vie à vos objets et ceux qu’on nous donne (on accepte les dons ici !). Fondée en 2022 par un petit groupe d’étudiants soucieux de participer à l'élaboration d’un nouveau mode de vie plus responsable, Reborn est une marque locale familiale et eco-friendly." />
+                <meta name='description' content="Il est simple : donner une seconde vie à vos objets et ceux qu’on nous donne (on accepte les dons ici !). Fondée en 2022 par un petit groupe d’étudiants soucieux de participer à l'élaboration d’un nouveau mode de vie plus responsable, Reborn est une marque locale familiale et eco-friendly." />
+            </Head>
             <Navbar></Navbar>
             <section className="wrapper">
                 <div className="concept__background__title"><Image src={conceptBackground} alt=""></Image></div>

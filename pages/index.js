@@ -12,6 +12,7 @@ import FeaturedProducts from '../components/FeaturedProducts';
 import Actualite1 from '../public/assets/icons/reborn-dons.svg'
 import Actualite2 from '../public/assets/icons/reborn-dons.svg'
 import conceptImage from '../public/assets/img/reborn-concept.webp'
+import Head from 'next/head'
 
 export default function Home() {
   function parallax() {
@@ -29,6 +30,13 @@ export default function Home() {
   }, [])
   return (
     <>
+      <Head>
+        <title>Reborn - donner une seconde vie à vos objets</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta property="og:title" content="Reborn - donner une seconde vie à vos objets" key="title" />
+        <meta property="og:description" content="Chez Reborn, nous souhaitons permettre à chacun d’avoir des objets uniques, sans se ruiner et sans acheter du neuf" />
+        <meta name='description' content='Chez Reborn, nous souhaitons permettre à chacun d’avoir des objets uniques, sans se ruiner et sans acheter du neuf' />
+      </Head>
       <Layout>
         <Cursor />
         <Splashscreen />

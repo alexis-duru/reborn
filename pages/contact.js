@@ -2,10 +2,18 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 import Link from 'next/link';
+import Head from 'next/head'
 
 const contact = () => {
     return (
         <>
+            <Head>
+                <title>Contactez-nous - reborn</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Contactez-nous - reborn" key="title" />
+                <meta property="og:description" content="Quand vous remplissez ce formulaire, vous nous envoyez en fait un mail et un mail, c’est en moyenne 4g de CO2 émis pour chaque envoi… du coup, on vous demande de vraiment réfléchir à votre demande avant de nous l’envoyer et de privilégier les sollicitations par téléphone." />
+                <meta name='description' content="Quand vous remplissez ce formulaire, vous nous envoyez en fait un mail et un mail, c’est en moyenne 4g de CO2 émis pour chaque envoi… du coup, on vous demande de vraiment réfléchir à votre demande avant de nous l’envoyer et de privilégier les sollicitations par téléphone." />
+            </Head>
             <Navbar></Navbar>
             <section className="section-colored contact">
                 <section className="contact__container">
@@ -25,7 +33,7 @@ const contact = () => {
                                 <div><label htmlFor="message">Message <strong>*</strong></label> <textarea rows="4" id="message" name="message" placeholder="Votre message" required=""></textarea></div>
                                 <div><label htmlFor="rgpd">
                                     <input type="checkbox" id="rgpd" name="Gestion des données personnelles" required="">
-                                        
+
                                     </input>
                                     En cochant cette case vous acceptez que vos coordonnées soient
                                     utilisées pour vous répondre.

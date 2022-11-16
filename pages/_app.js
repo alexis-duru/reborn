@@ -6,11 +6,11 @@ function MyApp({ title, Component, pageProps }) {
 
   return (
     <>
-        <Head>
-          <title>{title}</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-        <Component {...pageProps} />
+      <Head>
+        <title>Reborn - donner une seconde vie à vos objets</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Component {...pageProps} />
     </>
   )
 }
