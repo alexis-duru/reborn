@@ -1,10 +1,11 @@
 ::selection {
-    color: #fff;
+    color: $white;
+    background-color: $color2;
 }
 
 .container {
     display: flex;
-    max-width: 134rem;
+    max-width: 114rem;
     width: 100%;
     margin: 0 auto;
     padding: 0 4rem;
@@ -14,7 +15,7 @@
 .container-row {
     display: flex;
     align-items: center;
-    max-width: 134rem;
+    max-width: 114rem;
     width: 100%;
     margin: 0 auto;
     padding: 0 4rem;
@@ -33,24 +34,58 @@
     }
 }
 
-.primary-btn {
-    background-color: $black;
-    border-radius: 0;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    color: #fff;
-    font-weight: bold;
-    --bs-btn-padding-x: 1.75rem;
-    --bs-btn-padding-y: .6rem;
-    margin-top: 2rem;
+.btn {
+    padding: 2.4rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 400;
+    border: 1px solid transparent;
+}
+
+.btn__primary {
+    padding: 2.4rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 400;
+    border: 1px solid transparent;
+    background: $color2;
+    color: $white;
 
     &:hover {
-        background-color: $black !important;
-        color: #fff !important;
+        background: $white;
+        color: $black;
     }
 }
 
-.btn-container {
-    display: flex;
-    justify-content: center;
+.btn__secondary {
+    padding: 2.4rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 400;
+    border: 1px solid transparent;
+    background: $white;
+    color: $black;
+
+    &:hover {
+        background: $color2;
+        color: $white;
+    }
+}
+
+.btn:hover {
+    color: $white;
+    background-color: $color2;
+}
+
+.content__primary {
+    font-size: 1.5rem;
+    font-family: $circe;
+    margin-top: 1rem;
+}
+
+.content__primary+.content__primary {
+    margin-bottom: 2rem;
 }

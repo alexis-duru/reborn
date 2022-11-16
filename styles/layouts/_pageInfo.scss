@@ -1,0 +1,103 @@
+.section-info {
+    padding: 40px 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+
+    h2 {
+        font-family: $circe;
+        font-size: 3rem;
+        font-weight: 500;
+        margin: 2rem 0 0;
+    }
+
+    h3 {
+        font-family: $circe;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 1rem 0 0;
+    }
+
+    li,
+    p {
+        font-family: $circe;
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    a {
+        color: $color4;
+        font-weight: bold;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}
+
+.page__banner {
+    height: 160px;
+    padding: 4rem;
+    background-color: #f4f4f4;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        background: $color2;
+        font-family: $circe;
+        color: #fff;
+        width: fit-content;
+        padding: 0.6rem;
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 0.5rem;
+        text-align: left;
+    }
+
+    span {
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        gap: 0.6rem;
+        background: $color2;
+        color: #fff;
+        width: fit-content;
+        padding: 0.6rem;
+    }
+
+    a {
+        color: $white;
+        font-weight: normal;
+
+        &:hover {
+            color: $color4;
+        }
+    }
+}
+
+.validation-mail {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+}
+
+.mail-confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: column;
+}
