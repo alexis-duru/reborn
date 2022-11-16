@@ -14,7 +14,6 @@ const dons = () => {
                 <section className="section-colored dons">
                     <div className="container">
                         <h1><span className='span-font'>Dons</span></h1>
-
                         <div className='dons__content'>
                             <div className='dons__icon__container'> <Image src={donsIcon} alt='Icon de dons'></Image></div>
                             <h2>Comment donner ? </h2>
@@ -23,7 +22,7 @@ const dons = () => {
                             <h2>Quoi donner ? </h2>
                             <p>Pour le moment, nous acceptons les chaises, les tables, les vases et toutes les pièces détachées ou matériaux associés à ces objets (céramique, bois, métal…). Dans un avenir proche, on espère étendre nos réparations à d’autres objets, et grâce à vous, c’est bien parti !
                             </p>
-                            <div className='btn__container'><a href="/contact" class="btn primary-btn send-btn">
+                            <div className='btn__container'><a href="/contact" className="btn primary-btn send-btn">
                                 Nous contacter
                             </a></div>
                         </div>

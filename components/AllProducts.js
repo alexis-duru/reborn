@@ -1,64 +1,54 @@
 import React from 'react';
-import Link from 'next/link';
-import NavbarHome from '../components/NavbarHome';
 
 const AllProducts = () => {
 
-    if (typeof window !== "undefined") {
-        let images = [...document.querySelectorAll('.img')];
-    
-        images.forEach((img, idx) => {
-            img.style.backgroundImage = `url(../../assets/img/chaises/${idx+1}.png)`
-        })
-    }
-
-
-
     return (
         <>
-        <NavbarHome></NavbarHome>
-           <section id="laboutique">
+            <section id="laboutique">
                 <div className="container-title">
-                    <h1><span className="first-title">La</span><span className="second-title">Boutique</span></h1>
+                    <h1>La <span className="span-font">Boutique</span></h1>
                 </div>
                 <div className="container">
                     <div className="card">
                         <div className="wrapper-item">
-                        <h2 className="product-number">Table</h2>
-                            <Link href="/">
+                            <h2 className="product-number">Chaises</h2>
+                            <a href="/produits/chaises">
                                 <div className="item">
                                     <div className="wrapper">
-                                        <div className="img"></div>
+                                        <div className="img-boutique img-chaises"></div>
                                     </div>
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className="card">
                         <div className="wrapper-item">
-                        <h2 className="product-number">Chaise</h2>
-                            <Link href="/">
+                            <h2 className="product-number">Tables</h2>
+                            <a>
                                 <div className="item">
                                     <div className="wrapper">
-                                        <div className="img"></div>
+                                        <div className="img-boutique img-tables"></div>
                                     </div>
                                 </div>
-                            </Link>
+                            </a>
+                            <p className='card__warning'>Aucune tables disponibles</p>
                         </div>
                     </div>
+
                     <div className="card">
                         <div className="wrapper-item">
-                        <h2 className="product-number">Vases</h2>
-                            <Link href="/">
+                            <h2 className="product-number">Vases</h2>
+                            <a>
                                 <div className="item">
                                     <div className="wrapper">
-                                        <div className="img"></div>
+                                        <div className="img-boutique img-vases"></div>
                                     </div>
                                 </div>
-                            </Link>
+                            </a>
+                            <p className='card__warning'>Aucun vases disponibles</p>
                         </div>
                     </div>
-                
+
                 </div>
             </section>
         </>

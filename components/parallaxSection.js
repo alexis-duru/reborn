@@ -27,11 +27,11 @@ const parallaxSection = ({ title, text, buttonText, buttonLink, imgRef1, imgAlt1
                 <div>
                     <h2>{title}</h2>
                     <p>{text}</p>
-                    <Link href={buttonLink} class="button">{buttonText}</Link>
+                    <Link href={buttonLink} className="button">{buttonText}</Link>
 
                 </div>
-                <Image src={imgRef1} alt={imgAlt1} class="first-image" />
-                <Image src={imgRef2} alt={imgAlt2} class="second-image" />
+                <Image src={imgRef1} alt={imgAlt1} className="first-image" />
+                <Image src={imgRef2} alt={imgAlt2} className="second-image" />
             </section>
         </>
     )
