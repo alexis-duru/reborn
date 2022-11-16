@@ -1,0 +1,114 @@
+#featuredProducts {
+    background-color: #F7F6F4;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 120px 0;
+
+    .container-title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        h1 {
+            font-size: 8rem;
+            text-align: center;
+            color: #A4451B;
+            font-family: "circe", sans-serif;
+            font-weight: 200;
+
+            span {
+                margin: 0px 10px;
+                font-family: $kostania;
+            }
+        }
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0rem !important;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .card {
+            width: 300px;
+            height: 400px;
+            background-color: transparent;
+            border: 2px solid white;
+
+            img {
+                position: absolute;
+                left: 0px;
+                width: 50px;
+                height: 100%;
+                z-index: 10;
+            }
+
+            .wrapper-item {
+                height: 100%;
+                width: 100%;
+                position: relative;
+
+                a {
+                    width: 100%;
+                    height: 100%;
+
+                    .item {
+                        width: 100%;
+                        height: 100%;
+
+                        .wrapper {
+                            width: 100%;
+                            height: 100%;
+
+                            .featured__products-img {
+                                width: 100%;
+                                height: 100%;
+                                background-size: cover;
+                                background-position: center;
+                                transition: 0.3s ease-in-out;
+
+                                &:hover {
+                                    opacity: 0.5;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                .featured__product-number {
+                    font-family: $kostania;
+                    font-size: 8rem;
+                    color: $primary-color;
+                    position: absolute;
+                    bottom: -45px;
+                    left: -50px;
+                    z-index: 999;
+                }
+            }
+        }
+    }
+}
+
+.featured__product-1 {
+    background: url('../../public/assets/img/accueil_nouveaute/reborn-nouveaute-1.webp');
+}
+
+.featured__product-2 {
+    background: url('../../public/assets/img/accueil_nouveaute/reborn-nouveaute-2.webp');
+}
+
+.featured__product-3 {
+    background: url('../../public/assets/img/accueil_nouveaute/reborn-nouveaute-3.webp');
+}

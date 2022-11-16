@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import reborn from '../public/assets/img/home/home.gif';
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
 import Link from 'next/link';
+import FeaturedProducts from '../components/FeaturedProducts';
 
 export default function Home() {
   // function swap() {
@@ -79,6 +80,7 @@ export default function Home() {
               <p>Chez Reborn, nous souhaitons permettre à chacun d'avoir des objets uniques, sans se ruiner et sans acheter du neuf !</p>
               <p>C'est pour cela que nous vous proposons de réparer vos objets d'une manière singulière ou d'acheter des pièces par nos soins à partir de vos dons.</p>
             </div>
+            <FeaturedProducts></FeaturedProducts>
           </div>
         </section>
 
