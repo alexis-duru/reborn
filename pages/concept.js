@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navigation from '../components/Navigation';
 
 const concept = () => {
     return (
         <>
-            <Navbar></Navbar>
+            <Navigation></Navigation>
             <section className="section">
                 <div className="container">
                     <div class="page__banner">
