@@ -1,6 +1,4 @@
 import Layout from '../components/Layout'
-import Image from 'next/image'
-import placeholder from '../public/assets/img/placeholder.png'
 import NavbarHome from '../components/NavbarHome'
 import Splashscreen from '../components/Splashscreen';
 import Cursor from '../components/Cursor';
@@ -60,14 +58,14 @@ export default function Home() {
           <div class="about__company-content">
             <h2>Le <span className='subtext'>concept</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a class="btn primary-btn" href="/nos-produits.html">Decouvrir le concept</a></div>
+            <div><a class="btn primary-btn" href="/concept">Decouvrir le concept</a></div>
           </div>
         </section>
         <section class="contact__banner">
           <div class="container-row">
             <div class="banner">
               <h3>Vous souhaitez plus <strong class="strong-green">d’informations</strong> sur notre démarche ?</h3>
-              <a class="btn primary-btn" href="/contact.html">Contactez-nous</a>
+              <a class="btn primary-btn" href="/contact">Contactez-nous</a>
             </div>
           </div>
         </section>
