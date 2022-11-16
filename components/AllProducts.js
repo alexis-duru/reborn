@@ -25,7 +25,7 @@ const AllProducts = () => {
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="product-number">Tables</h2>
-                            <Link>
+                            <Link href="">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-tables"></div>
@@ -39,7 +39,7 @@ const AllProducts = () => {
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="product-number">Vases</h2>
-                            <Link>
+                            <Link href="">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-vases"></div>

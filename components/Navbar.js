@@ -24,7 +24,7 @@ export default function Header() {
             <section className='navbar__home'>
                 <div className='navbar__home__container'>
                     <div>
-                        <Link className="navbar__home__menu">Menu</Link>
+                        <Link href="" className="navbar__home__menu">Menu</Link>
                     </div>
                     <div>
                         <Link href="/">
