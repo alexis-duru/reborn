@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const AllProducts = () => {
@@ -12,25 +13,25 @@ const AllProducts = () => {
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="product-number">Chaises</h2>
-                            <a href="/produits/chaises">
+                            <Link href="/produits/chaises">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-chaises"></div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="product-number">Tables</h2>
-                            <a>
+                            <Link>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-tables"></div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                             <p className='card__warning'>Aucune tables disponibles</p>
                         </div>
                     </div>
@@ -38,17 +39,16 @@ const AllProducts = () => {
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="product-number">Vases</h2>
-                            <a>
+                            <Link>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-vases"></div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                             <p className='card__warning'>Aucun vases disponibles</p>
                         </div>
                     </div>
-
                 </div>
             </section>
         </>

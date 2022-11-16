@@ -25,7 +25,7 @@ const contact = () => {
                                 <div><label for="rgpd"><input type="checkbox" id="rgpd" name="Gestion des données personnelles" required=""></input>
                                     En cochant cette case vous acceptez que vos coordonnées soient
                                     utilisées pour vous répondre.
-                                    <a href="/politique-de-confidentialite"> Notre politique de confidentialité</a>. <strong>*</strong></label>
+                                    <Link href="/politique-de-confidentialite"> Notre politique de confidentialité</Link>. <strong>*</strong></label>
                                 </div>
                                 <div className="form__send"><button type="submit" role="button" className="btn primary-btn send-btn">
                                     Envoyer

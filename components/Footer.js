@@ -14,20 +14,20 @@ export default function Footer() {
         <div className='footer_infos'>
           <div className='footer_info'>
             <Image src={adressIcone} alt='Icône localisation'></Image>
-            <a href='https://goo.gl/maps/gh4vPVGSrjoNJNnn6' target='_blank'>3 rue Surcouf<br></br>33000 Bordeaux</a>
+            <Link href='https://goo.gl/maps/gh4vPVGSrjoNJNnn6' target='_blank'>3 rue Surcouf<br></br>33000 Bordeaux</Link>
           </div>
           <div className='footer_info'>
             <Image src={phoneIcone} alt='Icône téléphone'></Image>
             <div>
-              <a href="tel:+33597453533">05 97 45 35 33</a>
-              <a href="tel:+33679545344">06 79 54 53 44</a>
+              <Link href="tel:+33597453533">05 97 45 35 33</Link>
+              <Link href="tel:+33679545344">06 79 54 53 44</Link>
             </div>
           </div>
         </div>
         <div className='credits'>
           <p>2022 - REBORN - TOUS DROITS RESERVES</p>
-          <a href='/mentions-legales'>Mentions légales</a>
-          <a href='/politique-de-confidentialite'>Politique de confiendtialité</a>
+          <Link href='/mentions-legales'>Mentions légales</Link>
+          <Link href='/politique-de-confidentialite'>Politique de confiendtialité</Link>
         </div>
       </footer>
     </>

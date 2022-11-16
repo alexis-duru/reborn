@@ -22,9 +22,9 @@ const dons = () => {
                             <h2>Quoi donner ? </h2>
                             <p>Pour le moment, nous acceptons les chaises, les tables, les vases et toutes les pièces détachées ou matériaux associés à ces objets (céramique, bois, métal…). Dans un avenir proche, on espère étendre nos réparations à d’autres objets, et grâce à vous, c’est bien parti !
                             </p>
-                            <div className='btn__container'><a href="/contact" className="btn primary-btn send-btn">
+                            <div className='btn__container'><Link href="/contact" className="btn primary-btn send-btn">
                                 Nous contacter
-                            </a></div>
+                            </Link></div>
                         </div>
                     </div>
                 </section>

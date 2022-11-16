@@ -133,7 +133,7 @@ const politiqueDeConfidentialite = () => {
                     permettant de justifier votre identité seront supprimées une fois que
                     nous aurons répondu à votre requête. Vous pouvez exercer ces droits en
                     adressant un mail en français via notre
-                    <a href="/contact"> page de contact</a>.
+                    <Link href="/contact"> page de contact</Link>.
                 </p> <p>
                     Nous disposons d’un délai d’un mois pour répondre à toute demande
                     relative à l’exercice de vos droits. Ce délai peut être prorogé de
@@ -141,7 +141,7 @@ const politiqueDeConfidentialite = () => {
                     demandes. Enfin, vous disposez, du droit d’introduire une réclamation
                     auprès de la Commission Nationale de l’Informatique et des Libertés
                     (CNIL), notamment sur son site internet
-                    <a href="https://www.cnil.fr"> www.cnil.fr.</a></p> <h2>
+                    <Link href="https://www.cnil.fr"> www.cnil.fr.</Link></p> <h2>
                     9. Y-a t'il un transfert de mes données hors de l'union européenne
                 </h2> <p>
                     Non, il n’y a pas de transfert hors de l’Union Européenne de vos
@@ -205,7 +205,7 @@ const politiqueDeConfidentialite = () => {
                     et cliquez sur l’onglet « Cookies et autorisations de site» à partir
                     d’ici vous pouvez paramétrer la gestion des cookies comme vous le
                     souhaiter ou suivez ce lien :
-                    <a href="https://support.microsoft.com/fr-fr/microsoft-edge/supprimer-les-cookies-dans-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"> supprimer les cookies dans Microsoft Edge.</a></p> <p><strong>2/ si vous utilisez le navigateur Firefox™ </strong></p> <p>
+                    <Link href="https://support.microsoft.com/fr-fr/microsoft-edge/supprimer-les-cookies-dans-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"> supprimer les cookies dans Microsoft Edge.</Link></p> <p><strong>2/ si vous utilisez le navigateur Firefox™ </strong></p> <p>
                     Allez dans l’onglet « Outils » du navigateur puis sélectionnez le menu
                     « Options » Dans la fenêtre qui s’affiche, choisissez l’onglet « Vie
                     privée et sécurité » et paramétrez le menu « Règles de conservation »
@@ -214,22 +214,22 @@ const politiqueDeConfidentialite = () => {
                     cookies. Vous pouvez également, en cliquant sur « Gérer les données »,
                     repérer les fichiers qui contiennent le nom « Reborn », les
                     sélectionner et les supprimer oui suivez ce lien :
-                    <a href="https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent"> supprimer les cookies dans Firefox.</a></p> <p><strong>3/ si vous utilisez le navigateur Safari™ </strong></p> <p>
+                    <Link href="https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent"> supprimer les cookies dans Firefox.</Link></p> <p><strong>3/ si vous utilisez le navigateur Safari™ </strong></p> <p>
                     Dans votre navigateur, choisissez le menu « Édition » puis «
                     Préférences ». Cliquez sur « Sécurité ». Cliquez sur « Afficher les
                     cookies ». Sélectionnez les cookies qui contiennent le nom «
                     Reborn » et cliquez sur « Effacer » ou sur « Tout effacer ».
                     Après avoir supprimé les cookies, cliquez sur « Terminé » ou suivez ce
                     lien :
-                    <a href="https://support.apple.com/fr-fr/guide/safari/sfri11471/mac"> supprimer les cookies dans Safari.</a></p> <p><strong>4/ si vous utilisez le navigateur Google Chrome™ </strong></p> <p>
+                    <Link href="https://support.apple.com/fr-fr/guide/safari/sfri11471/mac"> supprimer les cookies dans Safari.</Link></p> <p><strong>4/ si vous utilisez le navigateur Google Chrome™ </strong></p> <p>
                     Cliquez sur l’icône du menu Paramètres puis cliquez sur « Paramètres
                     ». Cliquez ensuite sur « Confidentialité et sécurité » puis
                     sélectionnez « Effacer les données de navigation» puis choisissez les
                     options souhaitées ou suivez ce lien :
-                    <a href="https://support.google.com/chrome/answer/95647"> supprimer les cookies dans Google Chrome.</a></p> <p><strong>5/ si vous utilisez le navigateur Opera™</strong></p> <p>
+                    <Link href="https://support.google.com/chrome/answer/95647"> supprimer les cookies dans Google Chrome.</Link></p> <p><strong>5/ si vous utilisez le navigateur Opera™</strong></p> <p>
                     Ouvrez le menu « Réglages » puis sélectionnez « Effacer les données de
                     navigation» puis choisissez les options souhaitées ou suivez ce lien :
-                    <a href="https://help.opera.com/en/latest/security-and-privacy/"> supprimer les cookies dans Opera.</a></p></div></section>
+                    <Link href="https://help.opera.com/en/latest/security-and-privacy/"> supprimer les cookies dans Opera.</Link></p></div></section>
             <Footer></Footer>
         </>
     );

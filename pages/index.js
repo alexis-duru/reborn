@@ -54,7 +54,6 @@ export default function Home() {
           <div className="header__container">
             <div className="header__content">
               <Image src={reborn} alt="fleche" className="reborn-logo" />
-
             </div>
           </div>
           <div className="header_bg"></div>
@@ -62,12 +61,12 @@ export default function Home() {
 
         <section className="section-colored dons">
           <div className="container">
-            <h1>Notre<span className="span-font"> Concept</span></h1>
-            <div className="dons__content">
-              <p>Parce qu"on nous met pas à la poubelle quand on se casse une jambe. Reborn retape les objets un peu usées par la vie</p>
-              <div className="btn__container"><a href="/concept" className="btn primary-btn send-btn">
+            <h1>Notre<span className='span-font'> Concept</span></h1>
+            <div className='dons__content'>
+              <p>Parce qu'on nous met pas à la poubelle quand on se casse une jambe. Reborn retape les objets un peu usées par la vie</p>
+              <div className='btn__container'><Link href="/concept" className="btn primary-btn send-btn">
                 Lire plus
-              </a></div>
+              </Link></div>
             </div>
           </div>
         </section>
@@ -89,9 +88,9 @@ export default function Home() {
             <div className="dons__content">
               <div className="dons__icon__container"> <Image src={donsIcon} alt="Icon de dons"></Image></div>
               <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
-              <div className="btn__container"><a href="/concept" className="btn primary-btn send-btn">
+              <div className='btn__container'><Link href="/concept" className="btn primary-btn send-btn">
                 Lire plus
-              </a></div>
+              </Link></div>
             </div>
           </div>
         </section>
