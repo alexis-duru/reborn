@@ -1,6 +1,6 @@
 import React from 'react';
 
-const contact = () => {
+const validationMail = () => {
     return (
         <>
             <section className="validation-mail">
@@ -15,4 +15,4 @@ const contact = () => {
     );
 }
 
-export default contact
+export default validationMail

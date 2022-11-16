@@ -1,6 +1,6 @@
 import React from 'react';
 
-const contact = () => {
+const politiqueDeConfidentialite = () => {
     return (
         <>
             <section class="section-info"><div class="container">
@@ -233,4 +233,4 @@ const contact = () => {
     );
 }
 
-export default contact
+export default politiqueDeConfidentialite
