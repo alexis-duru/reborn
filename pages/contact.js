@@ -1,24 +1,17 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 const contact = () => {
     return (
         <>
-            <section className="section">
-                <div className="container">
-                    <div class="page__banner">
-                        <h1>Contactez-nous !</h1>
-                        <span><a href="/">Accueil</a> » Contactez-nous</span>
-                    </div>
-                </div>
+            <Navbar></Navbar>
+            <section className="section-colored contact">
                 <section class="contact__container">
-                    <div className='container-row'>
+                    <div className='container'>
                         <section class="contact__form__container">
-                            <h2>Contactez-nous dès maintenant !</h2>
+                            <h1>Une <span className='span-font'>question ?</span></h1>
                             <p class="content__primary">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed perspiciatis facere,
-                                similique
-                                quas doloremque reiciendis consequuntur quis maiores dolor possimus ipsum aperiam ratione
-                                repudiandae molestiae magnam nulla repellat animi!
+                                Pour nous contacter, rien de plus simple, remplissez ce formulaire juste en dessous mais psssit… attendez !! Quand vous remplissez ce formulaire, vous nous envoyez en fait un mail et un mail, c’est en moyenne <strong>4g de CO2</strong> émis pour chaque envoi… du coup, on vous demande de vraiment réfléchir à votre demande avant de nous l’envoyer et de <strong>privilégier les sollicitations par téléphone</strong> qu’on vous remet juste ici : 05 97 45 35 33 ou 06 79 54 53 44. Merci !
                             </p>
                             <p class="content__primary"><strong>*</strong> = Champs obligatoire.
                             </p>
@@ -38,15 +31,10 @@ const contact = () => {
                                 </button></div>
                             </form>
                         </section>
-                        <section class="contact__social__container">
-                            <div role="img" aria-label="Photographie d'un pot de fleur'" class="contact__social-1">
-                                <h2>Rejoignez-nous sur Facebook !</h2>
-                                <a href="https://www.facebook.com/" target="_blank" title="Lien vers la page Facebook de FlowerPot" class="btn__secondary send-btn">Facebook</a>
-                            </div>
-                            <div role="img" aria-label="Photographie d'un pot de fleur" class="contact__social-2">
-                                <h2>Rejoignez-nous sur Instagram !</h2>
-                                <a href="https://www.instagram.com/" target="_blank" title="Lien vers la page Instagram de FlowerPot" class="btn__secondary send-btn">Instagram</a>
-                            </div>
+                        <section className='contact__notification'>
+                            <p>Reborn a également pris le parti pris de ne pas être sur les réseaux sociaux, toujours pour limiter au maximum son empreinte carbone. C’est un parti pris fort et pas forcément évident dans notre société actuelle, mais nous sommes prêts à en assumer les conséquences pour inciter les autres à faire de même :)
+                                Toutes nos informations sont donc à retrouver sur notre site, directement sur la page d’accueil.
+                            </p>
                         </section>
                     </div>
                 </section>
