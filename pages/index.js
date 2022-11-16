@@ -3,6 +3,8 @@ import { useAppContext } from '../AppContext';
 import Image from 'next/image'
 import placeholder from '../public/assets/img/placeholder.png'
 import Navbar from '../components/Navbar'
+import Splashscreen from '../components/Splashscreen';
+import Cursor from '../components/Cursor';
 
 export default function Home() {
   const { i18n } = useAppContext();
@@ -11,6 +13,9 @@ export default function Home() {
   return (
     <>
       <Layout>
+        <Cursor />
+        <Splashscreen />
+
         <section className='header'>
           <Navbar></Navbar>
           <div className='header__container'>
@@ -24,7 +29,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
         <section class="about" id="about">
           <div class="container-row">
             <div class="about__company-content">
