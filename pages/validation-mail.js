@@ -13,7 +13,7 @@ const validationMail = () => {
                     <div className="mail-confirm">
                         <Image src={rebornMailSucess} alt='Icône mail'></Image>
                         <h2>Votre mail à bien été envoyé, nous vous répondrons dans les plus brefs délais.</h2>
-                        <div className='btn__container'><a className="btn primary-btn" href="/">Retour à l'accueil</a></div>
+                        <div className='btn__container'><Link className="btn primary-btn" href="/">Retour à l'accueil</Link></div>
                     </div>
                 </div>
             </section>

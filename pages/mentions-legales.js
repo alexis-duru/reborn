@@ -151,7 +151,7 @@ const mentionsLegales = () => {
                     appuyant sur Ok.
                 </p> <h2>8. Droit applicable et attribution de juridiction</h2> <p>
                     Tout litige en relation avec l’utilisation du site
-                    <a href="/"> Reborn</a> est soumis au droit français. Il
+                    <Link href="/"> Reborn</Link> est soumis au droit français. Il
                     est fait attribution exclusive de juridiction aux tribunaux compétents
                     de Paris.
                 </p> <h2>9. Les principales lois concernées</h2> <p>

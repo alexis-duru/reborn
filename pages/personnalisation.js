@@ -7,7 +7,7 @@ const personnalisation = () => {
                 <div className="container">
                     <div className="page__banner">
                         <h1>Personnalisation !</h1>
-                        <span><a href="/">Accueil</a> » Personnalisation</span>
+                        <span><Link href="/">Accueil</Link> » Personnalisation</span>
                     </div>
                 </div>
             </section>

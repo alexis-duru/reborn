@@ -23,12 +23,12 @@ export default function Header() {
             <section className='navbar__home'>
                 <div className='navbar__home__container'>
                     <div>
-                        <a className="navbar__home__menu">Menu</a>
+                        <Link className="navbar__home__menu">Menu</Link>
                     </div>
                     <div>
-                        <a href="/">
+                        <Link href="/">
                             <Image className="navbar__home__image" src={logo} alt='Logo reborn'></Image>
-                        </a>
+                        </Link>
                     </div>
                     <div>
                         <p className="navbar__home__menu">Bordeaux</p>
