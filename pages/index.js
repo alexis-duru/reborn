@@ -14,6 +14,7 @@ export default function Home() {
       <Layout>
         <Cursor />
         <Splashscreen />
+
         <section className='header'>
           <div className='container'>
             <div className='header__content'>
