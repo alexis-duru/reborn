@@ -1,132 +1,134 @@
-.header {
-    padding: 80px 0;
-    min-height: 120vh;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-
-}
-
-.header_bg {
-    position: absolute;
-    background: url('../../public/assets/img/reborn-background.webp');
-    min-height: 120vh;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -10;
-}
-
-.header__container {
-    display: flex;
-    align-items: center;
-    max-width: 114rem;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 4rem;
-    flex-direction: row;
-    color: $black;
-}
-
-.header__content {
-    gap: 3rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-
-    h1 {
-        font-size: 12rem;
-        font-family: $circe;
-        color: $primary-color;
-        font-weight: 200;
-        text-align: center;
-
-        span {
-            font-weight: bold;
-            font-family: $kostania;
-        }
-    }
-}
-
-.header__image {
-    position: absolute;
-    height: 90%;
-    width: auto;
-    right: -60px;
-}
-
-/* about */
-
-section:not(.header):not(.navbar__home) {
-    background-color: $beige;
-    padding: 8rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    position: relative;
-
-    &:not(:last-of-type)::after {
-        content: "";
-        position: absolute;
-        background-color: $blue;
-        height: 2px;
-        width: 90%;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%);
-
-    }
-
-    h2 {
-        font-weight: 200;
-        font-size: 4.8rem;
-        color: $primary-color;
-
-        span {
-            font-weight: bold;
-            font-family: $kostania;
-        }
-    }
-
-    .content {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        gap: 3.2rem;
-    }
-
-}
-
-/*Contact banner*/
-.contact__banner {
-    padding: 8rem;
-    background-color: $beige;
-
-    @media screen and (max-width: 900px) {
-        padding: 0;
-    }
-
-    & .banner {
-        height: 20rem;
+.home {
+    .header {
+        padding: 80px 0;
+        min-height: 120vh;
+        height: 100%;
         width: 100%;
-        background-color: #F8F8F8;
-        background-position: center;
-        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    .header_bg {
+        position: absolute;
+        background: url('../../public/assets/img/reborn-background.webp');
+        min-height: 120vh;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-position: center center;
         background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -10;
+    }
+
+    .header__container {
+        display: flex;
+        align-items: center;
+        max-width: 114rem;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 4rem;
+        flex-direction: row;
+        color: $black;
+    }
+
+    .header__content {
+        gap: 3rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 3rem;
+        width: 100%;
+
+        h1 {
+            font-size: 12rem;
+            font-family: $circe;
+            color: $primary-color;
+            font-weight: 200;
+            text-align: center;
+
+            span {
+                font-weight: bold;
+                font-family: $kostania;
+            }
+        }
+    }
+
+    .header__image {
+        position: absolute;
+        height: 90%;
+        width: auto;
+        right: -60px;
+    }
+
+    /* about */
+
+    section:not(.header):not(.navbar__home) {
+        background-color: $beige;
+        padding: 8rem;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        &:not(:last-of-type)::after {
+            content: "";
+            position: absolute;
+            background-color: $blue;
+            height: 2px;
+            width: 90%;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+
+        }
+
+        h2 {
+            font-weight: 200;
+            font-size: 4.8rem;
+            color: $primary-color;
+
+            span {
+                font-weight: bold;
+                font-family: $kostania;
+            }
+        }
+
+        .content {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            gap: 3.2rem;
+        }
+
+    }
+
+    /*Contact banner*/
+    .contact__banner {
+        padding: 8rem;
+        background-color: $beige;
+
+        @media screen and (max-width: 900px) {
+            padding: 0;
+        }
+
+        & .banner {
+            height: 20rem;
+            width: 100%;
+            background-color: #F8F8F8;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 3rem;
+            text-align: center;
+        }
     }
 }

@@ -30,6 +30,8 @@ export default function Home() {
   //   swap()
   // }, [])
   function parallax() {
+    const body = document.querySelector('body');
+    body.classList.add('home')
     const bg = document.querySelector('.header_bg');
     window.addEventListener('scroll', () => {
       let scroll = window.scrollY;
