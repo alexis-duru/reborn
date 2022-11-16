@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import rebornMailSucess from '../public/assets/icons/reborn-mail-sucess.svg'
 import Image from 'next/image'
+import Link from 'next/link';
 
 const validationMail = () => {
     return (

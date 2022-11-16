@@ -7,6 +7,7 @@ import Image from 'next/image'
 import { useEffect } from 'react';
 import reborn from '../public/assets/img/home/home.gif';
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
+import Link from 'next/link';
 
 export default function Home() {
   // function swap() {
