@@ -13,7 +13,7 @@ export default function Header() {
                     <a href="index.html">
                         <Image className="navbar__image" src={logo} alt='chair'></Image>
                     </a>
-                    <a class="navbar__menu">Menu</a>
+                    <a className="navbar__menu">Menu</a>
                 </div>
             </section>
         </>
