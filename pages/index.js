@@ -5,7 +5,7 @@ import NavbarHome from '../components/NavbarHome'
 import Splashscreen from '../components/Splashscreen';
 import Cursor from '../components/Cursor';
 import { useEffect } from 'react';
-//import gsap from "gsap"
+import reborn from '../public/assets/img/home/home.gif'
 
 export default function Home() {
   // function swap() {
@@ -50,7 +50,8 @@ export default function Home() {
         <section className='header'>
           <div className='header__container'>
             <div className='header__content'>
-              <h1>Re<span className='subtext'>born</span></h1>
+            <Image src={reborn} alt="fleche" class="reborn-logo" />
+              {/* <h1>Re<span className='subtext'>born</span></h1> */}
             </div>
           </div>
           <div className='header_bg'></div>
