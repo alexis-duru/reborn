@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer'
 
 const contact = () => {
     return (
@@ -39,6 +40,7 @@ const contact = () => {
                     </div>
                 </section>
             </section>
+            <Footer></Footer>
         </>
     );
 }

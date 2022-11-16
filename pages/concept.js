@@ -1,15 +1,16 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import conceptImage from '../public/assets/img/reborn-concept.webp'
 import conceptBackground from '../public/assets/img/reborn-concept-background.webp'
 import Image from 'next/image'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const concept = () => {
     return (
         <>
+            <Navbar></Navbar>
             <section className='wrapper'>
                 <div className='concept__background__title'><Image src={conceptBackground} alt=''></Image></div>
-                <Navbar></Navbar>
                 <section className="section-colored concept">
                     <div className="container">
                         <h1>Notre <span className='span-font'>Concept</span></h1>
@@ -39,6 +40,7 @@ const concept = () => {
                     </div>
                 </section>
             </section>
+            <Footer></Footer>
         </>
     );
 }
