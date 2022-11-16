@@ -71,6 +71,19 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: $blue;
+        height: 2px;
+        width: 90%;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
 
     h2 {
         font-weight: 200;

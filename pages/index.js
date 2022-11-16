@@ -2,6 +2,7 @@ import Layout from '../components/Layout'
 import Image from 'next/image'
 import placeholder from '../public/assets/img/placeholder.png'
 import NavbarHome from '../components/NavbarHome'
+import Footer from '../components/Footer'
 import Splashscreen from '../components/Splashscreen';
 import Cursor from '../components/Cursor';
 import { useEffect } from 'react';
@@ -71,6 +72,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <Footer></Footer>
       </Layout>
     </>
   )
