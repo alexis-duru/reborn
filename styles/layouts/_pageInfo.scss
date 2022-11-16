@@ -6,9 +6,19 @@
     flex-direction: row;
     justify-content: center;
     text-align: justify;
+    background-color: #F7F6F4;
+
+    h1 {
+        font-size: 8rem;
+        text-align: center;
+        color: $primary-color;
+        font-family: $circe;
+        font-weight: 200;
+    }
 
     h2 {
         font-family: $circe;
+        color: $primary-color;
         font-size: 3rem;
         font-weight: 500;
         margin: 2rem 0 0;
@@ -58,4 +68,16 @@
     width: 60%;
     margin: 0 auto;
     flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+    .section-info {
+        h1 {
+            font-size: 4rem;
+        }
+
+        .span-font {
+            font-size: 5rem;
+        }
+    }
 }

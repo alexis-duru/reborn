@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import logo from '../public/assets/img/logo-reborn.svg'
-import panier from '../public/assets/icons/reborn-panier.svg'
 import { useEffect } from "react";
 
 export default function Header() {

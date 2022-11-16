@@ -1,13 +1,13 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 const politiqueDeConfidentialite = () => {
     return (
         <>
+            <Navbar></Navbar>
             <section class="section-info"><div class="container">
-                <div class="page__banner">
-                    <h1>Politique de confidentialité</h1>
-                    <span><a href="/">Accueil</a> » Politique de confidentialité</span>
-                </div><h2>1. Préambule</h2> <p>
+                <h1><span className='span-font'>Politique de confidentialite</span></h1>
+                <h2>1. Préambule</h2> <p>
                     La présente politique de protection des données à caractère personnel
                     (la « Politique ») a été rédigée pour vous permettre de prendre
                     connaissance des pratiques et des conditions dans lesquelles le site

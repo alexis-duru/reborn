@@ -1,13 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 
 const mentionsLegales = () => {
     return (
         <>
+            <Navbar></Navbar>
             <section className="section-info"><div className="container">
-                <div class="page__banner">
-                    <h1>Mentions légales</h1>
-                    <span><a href="/">Accueil</a> » Mentions légales</span>
-                </div>
+                <h1><span className='span-font'>Mentions legales</span></h1>
                 <h2>1. Propriété</h2>
                 <p>
                     En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la
