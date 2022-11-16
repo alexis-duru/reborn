@@ -13,7 +13,7 @@
 
 .header_bg {
     position: absolute;
-    background: url('../../public/assets/img/home/home.png');
+    background: url('../../public/assets/img/reborn-background.webp');
     min-height: 120vh;
     height: 100%;
     width: 100%;
@@ -65,7 +65,7 @@
 
 /* about */
 
-.home_about {
+section:not(.header):not(.navbar__home) {
     background-color: $beige;
     padding: 8rem;
     text-align: center;
@@ -73,7 +73,7 @@
     justify-content: center;
     position: relative;
 
-    &::after {
+    &:not(:last-of-type)::after {
         content: "";
         position: absolute;
         background-color: $blue;
@@ -96,11 +96,12 @@
         }
     }
 
-    .about__company-content {
+    .content {
         width: 50%;
         display: flex;
         flex-direction: column;
         margin: 0;
+        gap: 3.2rem;
     }
 
 }
