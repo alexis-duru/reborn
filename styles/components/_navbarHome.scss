@@ -13,20 +13,7 @@
     div {
         justify-content: space-between;
     }
-
-    // &::after {
-    //     content: "";
-    //     position: absolute;
-    //     background-color: $blue;
-    //     height: 1px;
-    //     width: 90%;
-    //     bottom: 0;
-    //     left: 50%;
-    //     transform: translate(-50%);
-    //     opacity: 0.6;
-
-    // }
-
+    
     &.bg {
         background-color: $beige;
         box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 6%);
@@ -107,29 +94,37 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    #cercleun{
+
+    #cercleun {
         stroke-dashoffset: 1000;
         stroke: rgba(0, 0, 0, 0.2117647059);
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+
         &:hover {
             stroke-dasharray: 1000;
             animation: dash 1.8s ease-in-out infinite;
         }
+
         path {
             stroke: #00000036;
         }
 
         @keyframes dash {
             to {
-              stroke-dashoffset: 0;
+                stroke-dashoffset: 0;
             }
-          }
-      }
+        }
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .navbar__home__image {
+        width: 40%;
+    }
+}
 #burger-toggle {
     position: absolute;
     appearance: none;

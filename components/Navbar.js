@@ -31,7 +31,7 @@ export default function Header() {
                         </a>
                     </div>
                     <div>
-                        <a className="navbar__home__menu">Bordeaux</a>
+                        <p className="navbar__home__menu">Bordeaux</p>
                     </div>
                 </div>
             </section>

@@ -3,6 +3,7 @@ html {
 
     h1 {
         font-size: 8rem;
+        line-height: 8rem;
         color: $primary-color;
         font-family: $kostania;
     }
@@ -25,5 +26,16 @@ html {
 
     label {
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 4rem !important;
+        line-height: 4rem !important;
+    }
+
+    .span-font {
+        font-size: 5rem !important;
     }
 }

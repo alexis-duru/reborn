@@ -53,34 +53,58 @@ export default function Home() {
         <section className='header'>
           <div className='header__container'>
             <div className='header__content'>
-            <Image src={reborn} alt="fleche" class="reborn-logo" />
+              <Image src={reborn} alt="fleche" className="reborn-logo" />
+
             </div>
           </div>
           <div className='header_bg'></div>
         </section>
 
-        <section className="home_about" id="about">
-          <div className="content">
-            <h2>Le <span className='subtext'>concept</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a className="btn primary-btn" href="/concept">Decouvrir le concept</a></div>
+        <section className="section-colored dons">
+          <div className="container">
+            <h1>Notre<span className='span-font'> Concept</span></h1>
+            <div className='dons__content'>
+              <p>Parce qu'on nous met pas à la poubelle quand on se casse une jambe. Reborn retape les objets un peu usées par la vie</p>
+              <div className='btn__container'><a href="/concept" className="btn primary-btn send-btn">
+                Lire plus
+              </a></div>
+            </div>
           </div>
         </section>
-        <section className="home__products">
-          <div className="content">
-            <h2>Les <span className='subtext'>petits nouveaux</span></h2>
-            <div><a className="btn primary-btn" href="/boutique">Voir les autres produits</a></div>
-          </div>
-        </section>
-        <section className="home__donates">
-          <div className="content">
-            <h2>Faire un <span className='subtext'>don</span></h2>
-            <div className='dons__icon__container'> <Image src={donsIcon} alt='Icon de dons'></Image></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a className="btn primary-btn" href="/dons">Faire un don</a></div>
 
+        <section className="section-colored dons">
+          <div className="container">
+            <h1>Les<span className='span-font'> petits nouveaux</span></h1>
+            <div className='dons__content'>
+              <p>Chez Reborn, nous souhaitons permettre à chacun d'avoir des objets uniques, sans se ruiner et sans acheter du neuf !</p>
+              <p>C'est pour cela que nous vous proposons de réparer vos objets d'une manière singulière ou d'acheter des pièces par nos soins à partir de vos dons.</p>
+            </div>
           </div>
         </section>
+
+
+        <section className="section-colored dons">
+          <div className="container">
+            <h1>Fair un<span className='span-font'> don</span></h1>
+            <div className='dons__content'>
+              <div className='dons__icon__container'> <Image src={donsIcon} alt='Icon de dons'></Image></div>
+              <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
+              <div className='btn__container'><a href="/concept" className="btn primary-btn send-btn">
+                Lire plus
+              </a></div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-colored dons">
+          <div className="container">
+            <h1>Les<span className='span-font'> actus</span></h1>
+            <div className='dons__content'>
+              <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
+            </div>
+          </div>
+        </section>
+
         <Footer></Footer>
       </Layout>
     </>

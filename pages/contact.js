@@ -7,16 +7,16 @@ const contact = () => {
         <>
             <Navbar></Navbar>
             <section className="section-colored contact">
-                <section class="contact__container">
+                <section className="contact__container">
                     <div className='container'>
-                        <section class="contact__form__container">
+                        <section className="contact__form__container">
                             <h1>Un <span className='span-font'>don ?</span> Une <span className='span-font'>question ?</span></h1>
-                            <p class="content__primary">
+                            <p className="content__primary">
                                 Pour nous contacter, rien de plus simple, remplissez ce formulaire juste en dessous mais psssit… attendez !! Quand vous remplissez ce formulaire, vous nous envoyez en fait un mail et un mail, c’est en moyenne <strong>4g de CO2</strong> émis pour chaque envoi… du coup, on vous demande de vraiment réfléchir à votre demande avant de nous l’envoyer et de <strong>privilégier les sollicitations par téléphone</strong> qu’on vous remet juste ici : 05 97 45 35 33 ou 06 79 54 53 44. Merci !
                             </p>
-                            <p class="content__primary"><strong>*</strong> = Champs obligatoire.
+                            <p className="content__primary"><strong>*</strong> = Champs obligatoire.
                             </p>
-                            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="contact__form" action="/validation-mail"><input type="hidden" name="form-name" value="contact"></input>
+                            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" className="contact__form" action="/validation-mail"><input type="hidden" name="form-name" value="contact"></input>
                                 <div><label for="firstname">Prénom <strong>*</strong></label> <input id="firstname" name="firstname" placeholder="Votre prénom" required=""></input></div>
                                 <div><label for="lastname">Nom <strong>*</strong></label> <input id="lastname" name="lastname" placeholder="Votre nom" required=""></input></div>
                                 <div><label for="email">Email <strong>*</strong></label> <input id="email" name="email" placeholder="Ex : exemple@gmail.com" required=""></input></div>
@@ -27,7 +27,7 @@ const contact = () => {
                                     utilisées pour vous répondre.
                                     <a href="/politique-de-confidentialite"> Notre politique de confidentialité</a>. <strong>*</strong></label>
                                 </div>
-                                <div class="form__send"><button type="submit" role="button" class="btn primary-btn send-btn">
+                                <div className="form__send"><button type="submit" role="button" className="btn primary-btn send-btn">
                                     Envoyer
                                 </button></div>
                             </form>
