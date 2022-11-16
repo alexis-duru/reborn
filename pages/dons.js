@@ -5,10 +5,18 @@ import conceptBackground from '../public/assets/img/reborn-concept-background.we
 import Image from 'next/image'
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
 import Link from 'next/link';
+import Head from 'next/head'
 
 const dons = () => {
     return (
         <>
+            <Head>
+                <title>Dons - reborn</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Dons - reborn" key="title" />
+                <meta property="og:description" content="Pour le moment, nous acceptons les chaises, les tables, les vases et toutes les pièces détachées ou matériaux associés à ces objets (céramique, bois, métal…). Dans un avenir proche, on espère étendre nos réparations à d’autres objets, et grâce à vous, c’est bien parti !" />
+                <meta name='description' content="Pour le moment, nous acceptons les chaises, les tables, les vases et toutes les pièces détachées ou matériaux associés à ces objets (céramique, bois, métal…). Dans un avenir proche, on espère étendre nos réparations à d’autres objets, et grâce à vous, c’est bien parti !" />
+            </Head>
             <section className='wrapper'>
                 <div className='concept__background__title'><Image src={conceptBackground} alt=''></Image></div>
                 <Navbar></Navbar>

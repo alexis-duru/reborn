@@ -2,10 +2,18 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 import Link from 'next/link';
+import Head from 'next/head'
 
 const politiqueDeConfidentialite = () => {
     return (
         <>
+            <Head>
+                <title>Politique de confidentialité - reborn</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Politique de confidentialité - reborn" key="title" />
+                <meta property="og:description" content="La présente politique de confidentialité a été conçue pour vous aider à comprendre quels renseignements nous collectons, pourquoi nous les collectons et pour ..." />
+                <meta name='description' content='La présente politique de confidentialité a été conçue pour vous aider à comprendre quels renseignements nous collectons, pourquoi nous les collectons et pour ...' />
+            </Head>
             <Navbar></Navbar>
             <section className="section-info"><div className="container">
                 <h1><span className="span-font">Politique de confidentialite</span></h1>

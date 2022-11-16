@@ -11,6 +11,7 @@ const FeaturedProducts = () => {
                         <div className="wrapper-item">
                             <h2 className="featured__product-number">N°1</h2>
                             <Link href="/produits/chaises">
+                                <span className='hidden'>Lien vers le produit nouveauté 1</span>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="featured__products-img featured__product-1"></div>
@@ -30,6 +31,7 @@ const FeaturedProducts = () => {
                         <div className="wrapper-item">
                             <h2 className="featured__product-number">N°2</h2>
                             <Link href="">
+                                <span className='hidden'>Lien vers le produit nouveauté 1</span>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="featured__products-img  featured__product-2"></div>
@@ -50,6 +52,7 @@ const FeaturedProducts = () => {
                         <div className="wrapper-item">
                             <h2 className="featured__product-number">N°3</h2>
                             <Link href="">
+                                <span className='hidden'>Lien vers le produit nouveauté 1</span>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="featured__products-img  featured__product-3"></div>

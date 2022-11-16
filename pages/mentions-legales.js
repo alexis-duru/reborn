@@ -2,10 +2,18 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'
 import Link from 'next/link';
+import Head from 'next/head'
 
 const mentionsLegales = () => {
     return (
         <>
+            <Head>
+                <title>Mentions légales - reborn</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta property="og:title" content="Mentions légales - reborn" key="title" />
+                <meta property="og:description" content="Identité des différents intervenants dans le cadre de la réalisation du site internet www.gaetan-moreau.fr et de son suivi. Description des services fournis et limitations..." />
+                <meta name='description' content='Identité des différents intervenants dans le cadre de la réalisation du site internet www.gaetan-moreau.fr et de son suivi. Description des services fournis et limitations...' />
+            </Head>
             <Navbar></Navbar>
             <section className="section-info"><div className="container">
                 <h1><span className='span-font'>Mentions legales</span></h1>

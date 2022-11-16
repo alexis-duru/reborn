@@ -16,8 +16,8 @@ export default function Footer() {
           <div className='footer_info'>
             <Image src={phoneIcone} alt='Icône téléphone'></Image>
             <div>
-              <Link href="tel:+33597453533">05 97 45 35 33</Link>
-              <Link href="tel:+33679545344">06 79 54 53 44</Link>
+              <p>05 97 45 35 33</p>
+              <p>06 79 54 53 44</p>
             </div>
           </div>
         </div>

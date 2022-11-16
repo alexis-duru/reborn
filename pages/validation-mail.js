@@ -4,10 +4,16 @@ import Footer from '../components/Footer'
 import rebornMailSucess from '../public/assets/icons/reborn-mail-sucess.svg'
 import Image from 'next/image'
 import Link from 'next/link';
+import Head from 'next/head'
 
 const validationMail = () => {
     return (
         <>
+            <Head>
+                <title>Votre mail à bien été envoyé - reborn</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta name="robots" content="noindex" />
+            </Head>
             <Navbar></Navbar>
             <section className="validation-mail">
                 <div className="container">
