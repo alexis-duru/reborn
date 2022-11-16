@@ -2,7 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { useEffect } from "react";
 
-const parallaxSection = ({ title, text, buttonText, buttonLink, imgRef1, imgAlt1, imgRef2, imgAlt2, side = 'right' }) => {
+const ParallaxSection = ({ title, text, buttonText, buttonLink, imgRef1, imgAlt1, imgRef2, imgAlt2, side = 'right' }) => {
+
     function parallax() {
         const section = document.querySelector('.parallaxSection');
         const top = section.getBoundingClientRect().top;
@@ -16,9 +17,10 @@ const parallaxSection = ({ title, text, buttonText, buttonLink, imgRef1, imgAlt1
             }
         })
     }
+
     useEffect(() => {
         parallax();
-    }, [])
+    }, []);
 
 
     return (
@@ -37,4 +39,4 @@ const parallaxSection = ({ title, text, buttonText, buttonLink, imgRef1, imgAlt1
     )
 }
 
-export default parallaxSection;
+export default ParallaxSection;
