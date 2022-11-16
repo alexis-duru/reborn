@@ -1,4 +1,11 @@
 @import url("https://use.typekit.net/wqi6tiq.css");
+
+@font-face {
+    font-family: "Kostania";
+    src: url('../../public/assets/font/Kostania-Bold.ttf') format('woff2'),
+}
+
+
 $circe : 'circe',
 sans-serif;
 $kostania: 'Kostania', sans-serif;
