@@ -1,10 +1,10 @@
 import React from 'react';
-import ScrollGallery from '../../components/ScrollGallery';
+import ScrollGallery from '../../../components/ScrollGallery';
 
 const chaises = () => {
     return (
         <>
-          <ScrollGallery />
+            <ScrollGallery />
         </>
     );
 }
