@@ -1,9 +1,12 @@
-const Custom404 = () => {
+const error = () => {
+
     return (
         <>
-        <h1>404 Page</h1>
+            <main id="error-page">
+                 <h1>404</h1>
+            </main>
         </>
     )
 }
 
-export default Custom404;
+export default error;
