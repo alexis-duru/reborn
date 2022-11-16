@@ -16,7 +16,7 @@ const ScrollGallery = () => {
         window.addEventListener('resize', init);
 
         images.forEach((img, idx) => {
-            img.style.backgroundImage = `url(../../assets/img/chaises/${idx + 1}.png)`
+            img.style.backgroundImage = `url(../../assets/img/chaises/reborn-chaise-${idx + 1}.webp)`
         })
 
         function lerp(start, end, t) {
