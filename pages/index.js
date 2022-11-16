@@ -1,18 +1,35 @@
 import Layout from '../components/Layout'
-import { useAppContext } from '../AppContext';
 import Image from 'next/image'
 import placeholder from '../public/assets/img/placeholder.png'
 import NavbarHome from '../components/NavbarHome'
 import Splashscreen from '../components/Splashscreen';
-
 import Cursor from '../components/Cursor';
+import { useEffect } from 'react';
 import ParallaxSection from '../components/parallaxSection';
 
-
 export default function Home() {
-  const { i18n } = useAppContext();
+  // function swap() {
+  //   gsap.registerEffect({
+  //     name: "swapText",
+  //     effect: (targets, config) => {
+  //       let tl = gsap.timeline({ delay: config.delay });
+  //       tl.to(targets, { opacity: 0, duration: config.duration / 2 });
+  //       tl.add(() => targets[0].innerText = config.text);
+  //       tl.to(targets, { opacity: 1, duration: config.duration });
+  //       return tl;
+  //     },
+  //     defaults: { duration: 1 },
+  //     extendTimeline: true
+  //   });
+  //   var tl = gsap.timeline({ repeat: -1 });
+  //   tl.swapText(".subtext", { text: "THE SECOND INFO TEXT 1 IS THIS ONE", delay: 2 })
+  //     .swapText(".subtext", { text: "AND THE THIRD INFO TEXT IS THIS", delay: 2 })
+  //     .swapText(".subtext", { text: "THIS IS INFO TEXT 1", delay: 2 }); // back to the start
+  // }
 
-
+  // useEffect(() => {
+  //   swap()
+  // }, [])
   return (
     <>
       <Layout>
@@ -22,12 +39,7 @@ export default function Home() {
         <section className='header'>
           <div className='header__container'>
             <div className='header__content'>
-              <h1>Optez pour l'esprit <span>Reborn</span></h1>
-              <a href="#about">
-                <button className="btn btn--outline" type="button">
-                  <span className="btn__text">En savoir plus</span>
-                </button>
-              </a>
+              <h1>Re<span className='subtext'>born</span></h1>
             </div>
           </div>
         </section>

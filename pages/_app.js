@@ -17,16 +17,16 @@ function MyApp({ title, Component, pageProps }) {
 
   return (
     <>
-     <AppContextProvider>
-      <Head>
-                <title>{title}</title>
-                <link rel="icon" href="/favicon.ico" />
-                {langs.map((lang) => <link key={lang} rel="alternate" hrefLang={lang} href={`/${lang}`} />)}
-      </Head>
-      <Component {...pageProps} />
-    </AppContextProvider>
+      <AppContextProvider>
+        <Head>
+          <title>{title}</title>
+          <link rel="icon" href="/favicon.ico" />
+          {langs.map((lang) => <link key={lang} rel="alternate" hrefLang={lang} href={`/${lang}`} />)}
+        </Head>
+        <Component {...pageProps} />
+      </AppContextProvider>
     </>
-  ) 
+  )
 }
 
 export default MyApp

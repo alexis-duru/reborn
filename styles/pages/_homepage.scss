@@ -29,22 +29,19 @@
     gap: 3rem;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
 
     h1 {
-        font-size: 9rem;
-        line-height: 9rem;
-        font-family: $kostania;
-        color: $white;
+        font-size: 12rem;
+        font-family: $circe;
+        color: $primary-color;
         font-weight: 300;
+        text-align: center;
 
         span {
             font-weight: bold;
+            font-family: $kostania;
         }
-    }
-
-    p {
-        color: $white;
     }
 }
 
