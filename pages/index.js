@@ -5,7 +5,8 @@ import Splashscreen from '../components/Splashscreen';
 import Cursor from '../components/Cursor';
 import Image from 'next/image'
 import { useEffect } from 'react';
-import reborn from '../public/assets/img/home/home.gif'
+import reborn from '../public/assets/img/home/home.gif';
+import donsIcon from '../public/assets/icons/reborn-dons.svg'
 
 export default function Home() {
   // function swap() {
@@ -53,31 +54,30 @@ export default function Home() {
           <div className='header__container'>
             <div className='header__content'>
             <Image src={reborn} alt="fleche" class="reborn-logo" />
-              {/* <h1>Re<span className='subtext'>born</span></h1> */}
             </div>
           </div>
           <div className='header_bg'></div>
         </section>
 
-        <section class="home_about" id="about">
-          <div class="content">
+        <section className="home_about" id="about">
+          <div className="content">
             <h2>Le <span className='subtext'>concept</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a class="btn primary-btn" href="/concept">Decouvrir le concept</a></div>
+            <div><a className="btn primary-btn" href="/concept">Decouvrir le concept</a></div>
           </div>
         </section>
-        <section class="home__products">
-          <div class="content">
+        <section className="home__products">
+          <div className="content">
             <h2>Les <span className='subtext'>petits nouveaux</span></h2>
-            <div><a class="btn primary-btn" href="/boutique">Voir les autres produits</a></div>
+            <div><a className="btn primary-btn" href="/boutique">Voir les autres produits</a></div>
           </div>
         </section>
-        <section class="home__donates">
-          <div class="content">
+        <section className="home__donates">
+          <div className="content">
             <h2>Faire un <span className='subtext'>don</span></h2>
             <div className='dons__icon__container'> <Image src={donsIcon} alt='Icon de dons'></Image></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a class="btn primary-btn" href="/dons">Faire un don</a></div>
+            <div><a className="btn primary-btn" href="/dons">Faire un don</a></div>
 
           </div>
         </section>
