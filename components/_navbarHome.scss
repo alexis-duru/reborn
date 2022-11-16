@@ -1,4 +1,4 @@
-.navbar__home {
+$black {
     width: 100%;
     height: 80px;
     position: fixed;
@@ -23,13 +23,11 @@
         bottom: 0;
         left: 50%;
         transform: translate(-50%);
-        opacity: 0.6;
 
     }
 
     &.bg {
         background-color: $beige;
-        box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 6%);
 
         &::after {
             display: none;
@@ -37,7 +35,7 @@
     }
 }
 
-.navbar__home__container {
+$black__container {
     display: flex;
     align-items: center;
     max-width: 114rem;
@@ -58,9 +56,9 @@
         }
     }
 
-    // div:nth-child(1) {
-    //     width: 30%;
-    // }
+    div:nth-child(1) {
+        width: 30%;
+    }
 
     div:nth-child(2) {
         width: 40%;
@@ -78,53 +76,22 @@
 
 }
 
-.navbar__home__image {
+$black__image {
     width: 30%;
     height: fit-content;
 }
 
-.navbar__home__menu {
+$black__menu {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: $white;
     font-weight: 600;
     font-size: 2rem;
-    font-weight: 500;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
-    position: relative;
 
     & img {
         width: 16px;
         margin-left: .6rem;
     }
-}
-
-.wrapper-city {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    #cercleun{
-        stroke-dashoffset: 1000;
-        stroke: rgba(0, 0, 0, 0.2117647059);
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        &:hover {
-            stroke-dasharray: 1000;
-            animation: dash 1.8s ease-in-out infinite;
-        }
-        path {
-            stroke: #00000036;
-        }
-
-        @keyframes dash {
-            to {
-              stroke-dashoffset: 0;
-            }
-          }
-      }
 }
