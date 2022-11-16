@@ -53,8 +53,8 @@ function Splashscreen() {
         <>
             <div className="intro">
                 <h1 className="logo-header">
-                    <span className="logo name__firstpart">RE</span>
-                    <span className="logo name__secondpart">BORN</span>
+                    <span className="logo name__firstpart">Re</span>
+                    <span className="logo name__secondpart">born</span>
                 </h1>
             </div>
         </>
