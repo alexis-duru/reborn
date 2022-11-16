@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import logo from '../public/assets/img/logo-reborn.svg'
-import panier from '../public/assets/icons/reborn-panier.svg'
 
 export default function Header() {
     return (
@@ -17,8 +16,6 @@ export default function Header() {
                     </div>
                     <div>
                         <a className="navbar__home__menu">Bordeaux</a>
-                        <a className="navbar__home__menu">Compte</a>
-                        <a className="navbar__home__menu">Panier  <Image className="" src={panier} alt='panier'></Image></a>
                     </div>
                 </div>
             </section>
