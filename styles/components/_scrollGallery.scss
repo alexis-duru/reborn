@@ -90,11 +90,6 @@
                     height: 100%;
                     background-size: cover;
                     background-position: center;
-                    // filter: grayscale(100%);
-                    // transition: 0.3s ease-in-out;
-                    // &:hover {
-                    //     filter: grayscale(0%);
-                    // }
                 }
             }
         }
@@ -108,7 +103,6 @@
         bottom: 25px;
       }
       
-      /* The progress bar (scroll indicator) */
       .progress-bar {
         height: 4px;
         background: $primary-color;

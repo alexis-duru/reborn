@@ -23,7 +23,10 @@ const contact = () => {
                                 <div><label htmlFor="email">Email <strong>*</strong></label> <input id="email" name="email" placeholder="Ex : exemple@gmail.com" required=""></input></div>
                                 <div><label htmlFor="phone">Téléphone</label> <input id="phone" name="phone" placeholder="Ex : 05 05 05 05 05"></input></div>
                                 <div><label htmlFor="message">Message <strong>*</strong></label> <textarea rows="4" id="message" name="message" placeholder="Votre message" required=""></textarea></div>
-                                <div><label htmlFor="rgpd"><input type="checkbox" id="rgpd" name="Gestion des données personnelles" required=""></input>
+                                <div><label htmlFor="rgpd">
+                                    <input type="checkbox" id="rgpd" name="Gestion des données personnelles" required="">
+                                        
+                                    </input>
                                     En cochant cette case vous acceptez que vos coordonnées soient
                                     utilisées pour vous répondre.
                                     <Link href="/politique-de-confidentialite"> Notre politique de confidentialité</Link>. <strong>*</strong></label>

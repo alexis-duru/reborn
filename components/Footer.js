@@ -1,4 +1,3 @@
-import { useAppContext } from '../AppContext';
 import phoneIcone from '../public/assets/icons/reborn-telephone.svg'
 import adressIcone from '../public/assets/icons/reborn-adresse.svg'
 import Image from 'next/image'
