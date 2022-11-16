@@ -1,9 +1,9 @@
 ::-webkit-scrollbar {
-    background-color: #00372E;
+    background-color: $color2;
     width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: white;
+    background-color: $color4;
     height: auto;
 }
