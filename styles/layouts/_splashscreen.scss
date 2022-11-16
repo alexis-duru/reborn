@@ -20,15 +20,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: $beige;
 }
 
-.name__firstpart {
-    font-family: $circe;
-}
 
-.name__secondpart {
-    font-family: $kostania;
-}
 
 .logo {
     position: relative;
@@ -37,6 +32,15 @@
     opacity: 0;
     font-size: 5rem;
     font-weight: 600;
+}
+
+.name__firstpart {
+    font-family: $circe;
+    font-weight: 200;
+}
+
+.name__secondpart {
+    font-family: $kostania;
 }
 
 .logo.active {
