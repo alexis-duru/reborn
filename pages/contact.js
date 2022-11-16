@@ -9,7 +9,7 @@ const contact = () => {
                 <section class="contact__container">
                     <div className='container'>
                         <section class="contact__form__container">
-                            <h1>Une <span className='span-font'>question ?</span></h1>
+                            <h1>Un <span className='span-font'>don ?</span> Une <span className='span-font'>question ?</span></h1>
                             <p class="content__primary">
                                 Pour nous contacter, rien de plus simple, remplissez ce formulaire juste en dessous mais psssit… attendez !! Quand vous remplissez ce formulaire, vous nous envoyez en fait un mail et un mail, c’est en moyenne <strong>4g de CO2</strong> émis pour chaque envoi… du coup, on vous demande de vraiment réfléchir à votre demande avant de nous l’envoyer et de <strong>privilégier les sollicitations par téléphone</strong> qu’on vous remet juste ici : 05 97 45 35 33 ou 06 79 54 53 44. Merci !
                             </p>

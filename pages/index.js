@@ -1,6 +1,4 @@
 import Layout from '../components/Layout'
-import Image from 'next/image'
-import placeholder from '../public/assets/img/placeholder.png'
 import NavbarHome from '../components/NavbarHome'
 import Footer from '../components/Footer'
 import Splashscreen from '../components/Splashscreen';
@@ -61,7 +59,7 @@ export default function Home() {
           <div class="content">
             <h2>Le <span className='subtext'>concept</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
-            <div><a class="btn primary-btn" href="/nos-produits.html">Decouvrir le concept</a></div>
+            <div><a class="btn primary-btn" href="/concept">Decouvrir le concept</a></div>
           </div>
         </section>
         <section class="home__products">
@@ -74,6 +72,7 @@ export default function Home() {
             <h2>Faire un <span className='subtext'>don</span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate. Nunc ante quis in vitae porttitor a semper amet. Lectus aliquam at donec purus purus, diam felis ac. Convallis faucibus lectus etiam enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum, eget penatibus vel lorem arcu nam a ac vulputate.</p>
             <div><a class="btn primary-btn" href="/nos-produits.html">Faire un don</a></div>
+
           </div>
         </section>
         <Footer></Footer>
