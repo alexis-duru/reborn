@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer'
 
 const mentionsLegales = () => {
     return (
@@ -165,6 +166,7 @@ const mentionsLegales = () => {
                     personnes physiques auxquelles elles s’appliquent » (article 4 de la
                     loi n° 78-17 du 6 janvier 1978).
                 </p></div></section>
+            <Footer></Footer>
         </>
     );
 }

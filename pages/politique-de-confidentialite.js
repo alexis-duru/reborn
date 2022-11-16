@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer'
 
 const politiqueDeConfidentialite = () => {
     return (
@@ -229,6 +230,7 @@ const politiqueDeConfidentialite = () => {
                     Ouvrez le menu « Réglages » puis sélectionnez « Effacer les données de
                     navigation» puis choisissez les options souhaitées ou suivez ce lien :
                     <a href="https://help.opera.com/en/latest/security-and-privacy/"> supprimer les cookies dans Opera.</a></p></div></section>
+            <Footer></Footer>
         </>
     );
 }

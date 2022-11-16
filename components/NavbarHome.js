@@ -8,7 +8,7 @@ export default function Header() {
         const header = document.querySelector('.navbar__home');
         window.addEventListener('scroll', () => {
             let scroll = window.scrollY;
-            if (scroll > 200) {
+            if (scroll > 60) {
                 header.classList.add('bg')
             }
             else {
@@ -28,7 +28,7 @@ export default function Header() {
                     </div>
                     <div>
                         <a href="/">
-                            <Image className="navbar__home__image" src={logo} alt='chair'></Image>
+                            <Image className="navbar__home__image" src={logo} alt='Logo reborn'></Image>
                         </a>
                     </div>
                     <div>
