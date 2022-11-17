@@ -186,6 +186,7 @@
         flex-direction: row;
         gap: 2rem;
         margin-top: 2rem;
+        text-align: start;
 
         @media screen and (max-width: 840px) {
             display: block;
@@ -213,6 +214,10 @@
             height: 100%;
             margin-bottom: 1rem;
         }
+    }
+
+    .section-don {
+        padding-top: 12rem !important;
     }
 }
 

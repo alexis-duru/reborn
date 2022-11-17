@@ -66,7 +66,7 @@ export default function Home() {
           </section>
 
 
-          <section className="section-colored homepage__section">
+          <section className="section-colored section-don homepage__section">
             <div className="container">
               <h1>Faire un<span className='span-font'> don</span></h1>
               <div className="dons__content content">
@@ -89,12 +89,12 @@ export default function Home() {
                 <div className='actu__container'>
                   <Image src={Actualite1} alt="Photographie brocante des Quinquonces"></Image>
                   <p className='actu__content'>Les 25 et 26 novembre, c’est la brocante des Quinquonces !
-                    L’équipe Reborn aura un stand autour duquel on pourra discuter et refaire le monde autour de nos toutes dernières créations. Vous aurez aussi la possibilité d’y réparer et personnaliser vos objets fraîchement chinés dans une ambiance conviviale et créative. On vous attend de pied ferme !
+                    L’équipe Reborn aura un stand autour duquel on pourra discuter et refaire le monde autour de nos toutes dernières créations. Vous aurez aussi la possibilité d’y réparer et personnaliser vos objets fraîchement chinés dans une ambiance conviviale et créative. On vous attend de pied ferme&nbsp;!
                   </p>
                 </div>
                 <div className='actu__container'>
                   <Image src={Actualite2} alt="Photographie plaque atelier reborn"></Image>
-                  <p className='actu__content'>Les 3 et 4 décembre, c'est la fête chez Reborn ! On vous ouvre nos portes pour que vous puissiez découvrir les métiers associés à la réparation et échanger avec nos équipes sur leur rôle au sein de l'entreprise. On vous attend nombreux !
+                  <p className='actu__content'>Les 3 et 4 décembre, c'est la fête chez Reborn ! On vous ouvre nos portes pour que vous puissiez découvrir les métiers associés à la réparation et échanger avec nos équipes sur leur rôle au sein de l'entreprise. On vous attend nombreux&nbsp;!
                   </p>
                 </div>
               </div>
