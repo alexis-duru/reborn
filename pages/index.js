@@ -83,7 +83,6 @@ export default function Home() {
             <div className="container">
               <h1>Les<span className="span-font"> actus</span></h1>
               <div className="homepage__content content">
-                <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
               </div>
               <div className='actus__container'>
                 <div className='actu__container'>
