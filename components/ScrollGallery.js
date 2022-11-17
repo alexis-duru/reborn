@@ -5,8 +5,8 @@ import { useEffect } from "react";
 
 const ScrollGallery = () => {
 
-    if (typeof window !== "undefined") {
-        
+    // if (typeof window !== "undefined") {
+
         const animate = () => {
             let images = [...document.querySelectorAll('.img')];
             let slider = document.querySelector('.slider');
@@ -70,9 +70,9 @@ const ScrollGallery = () => {
 
             useEffect (() => {
                 animate();
-            }, [animate]);
+            }, []);
+    // }
 
-    }
 
     return (
         <>
