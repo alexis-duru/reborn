@@ -20,10 +20,10 @@ const FeaturedProducts = () => {
                             </Link>
                             <div>
                                 <div className='products__infos'>
-                                    <p>Tables N°1</p>
+                                    <p>Vase N°1</p>
                                     <p>50€</p>
                                 </div>
-                                <p>Pied de métal</p>
+                                <p className='products__desc'>Reliure coloré</p>
                             </div>
                         </div>
                     </div>
@@ -40,10 +40,10 @@ const FeaturedProducts = () => {
                             </Link>
                             <div>
                                 <div className='products__infos'>
-                                    <p>Tables N°2</p>
-                                    <p>60€</p>
+                                    <p>Chaise N°1</p>
+                                    <p>50€</p>
                                 </div>
-                                <p>Pied de bois</p>
+                                <p className='products__desc'>Pied de métal</p>
                             </div>
                         </div>
                     </div>
@@ -61,10 +61,10 @@ const FeaturedProducts = () => {
                             </Link>
                             <div>
                                 <div className='products__infos'>
-                                    <p>Tables N°3</p>
+                                    <p>Tasse N°1</p>
                                     <p>40€</p>
                                 </div>
-                                <p>Pied en plastique</p>
+                                <p className='products__desc'>Morceau à motif</p>
                             </div>
                         </div>
                     </div>
