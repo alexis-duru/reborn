@@ -83,7 +83,7 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 1</h3>
                                 <p className="product-material">Pied de metal</p>
                             </div>
-                            <Link href="/">
+                            <Link href="/produits/chaises/chaise-1">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
@@ -97,7 +97,7 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 2</h3>
                                 <p className="product-material">Pied de bois</p>
                             </div>
-                            <Link href="/">
+                            <Link href="/produits/chaises/chaise-2">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
@@ -111,7 +111,7 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 3</h3>
                                 <p className="product-material">Pied en plastique</p>
                             </div>
-                            <Link href="/">
+                            <Link href="/produits/chaises/chaise-3">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
@@ -125,7 +125,7 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 4</h3>
                                 <p className="product-material">Pied en bois</p>
                             </div>
-                            <Link href="/">
+                            <Link href="/produits/chaises/chaise-4">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
@@ -139,7 +139,7 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 5</h3>
                                 <p className="product-material">Pied en plastique</p>
                             </div>
-                            <Link href="/">
+                            <Link href="/produits/chaises/chaise-5">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
@@ -153,7 +153,7 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 6</h3>
                                 <p className="product-material">Pied en metal</p>
                             </div>
-                            <Link href="/">
+                            <Link href="/produits/chaises/chaise-6">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
