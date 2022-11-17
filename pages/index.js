@@ -68,7 +68,7 @@ export default function Home() {
 
           <section className="section-colored homepage__section">
             <div className="container">
-              <h1>Fair un<span className='span-font'> don</span></h1>
+              <h1>Faire un<span className='span-font'> don</span></h1>
               <div className="dons__content content">
                 <div className="dons__icon__container"> <Image src={donsIcon} alt="Icon de dons"></Image></div>
                 <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
