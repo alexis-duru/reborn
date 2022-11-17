@@ -38,7 +38,10 @@ const personnalisation = () => {
                             <p>Reborn propose un service de personnalisation de vos objets cassés avec des pièces détachées de votre choix. Un pied jaune sur une chaise de paille ou encore un vase réparé à partir de morceaux de céramiques récupérés, nous prenons en compte vos demandes et essayons d’y répondre au mieux, de la manière que vous voulez !
                             </p>
                         </div>
-                        <Configurateur />
+                        {/* <Configurateur /> */}
+    
+                        <video className='personnalisation__video' src="/assets/videos/video.mp4" autoPlay loop muted></video>
+                        <div className="infos__video"><p>* Voici un aperçu de notre future configurateur d'objets</p></div>
                         {/*TODO*/}
                         <div className='btn__container'><button disabled className="btn primary-btn send-btn">
                             Reserver*
