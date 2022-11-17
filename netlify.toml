@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/*"
+    [headers.values]
+      X-XSS-Protection = "1; mode=block"
+      X-Frame-Options = "SAMEORIGIN"
+      X-Content-Type-Options = "nosniff"
+      Referrer-Policy = "strict-origin-when-cross-origin"
+      Permissions-Policy = "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), geolocation=(), fullscreen=(), gyroscope=(), layout-animations=(), legacy-image-formats=(), magnetometer=(), microphone=(), midi=(), oversized-images=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), sync-xhr=(), usb=(), wake-lock=(), xr-spatial-tracking=(), notifications=(), speaker=(), vibrate=(), push=()"
+      Strict-Transport-Security=  "max-age=15552001; includeSubDomains; preload"
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
