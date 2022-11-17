@@ -76,7 +76,8 @@
         text-transform: uppercase;
 
         .primary-btn {
-            height: auto;
+            height: 58px;
+            line-height: inherit;
         }
     }
 }
