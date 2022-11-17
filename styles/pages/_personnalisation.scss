@@ -82,13 +82,17 @@
     margin: 5rem 5rem 2rem;
     position: relative;
     height: 32rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 
 
     video {
         height: 100%;
+        margin-left: -25px;
     }
 
-    &::after {
+    &::before {
         content: '';
         position: absolute;
         //background-color: rgba(0, 0, 0, .1);
