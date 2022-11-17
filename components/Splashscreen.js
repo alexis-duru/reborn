@@ -3,16 +3,16 @@ import { useEffect } from "react";
 function Splashscreen() {
 
     const splashscreen = () => {
-        // const firstVisit = localStorage.getItem('firstVisit');
+        const firstVisit = localStorage.getItem('firstVisit');
         const splashscreen = document.querySelector('.intro');
 
-        // if(firstVisit === null) {
-        //     localStorage.setItem('firstVisit', 'true');
-        //     splashscreen.classList.remove('mask');
-        // } else {
-        //     localStorage.setItem('firstVisit', 'false');
-        //     splashscreen.classList.add('mask');
-        // }
+        if(firstVisit === null) {
+            localStorage.setItem('firstVisit', 'true');
+            splashscreen.classList.remove('mask');
+        } else {
+            localStorage.setItem('firstVisit', 'false');
+            splashscreen.classList.add('mask');
+        }
 
         let intro = document.querySelector('.intro');
         let logoSpan = document.querySelectorAll('.logo');
