@@ -232,3 +232,9 @@
         gap: 10rem !important;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #featuredProducts .container .card .wrapper-item .featured__product-number {
+        left: -20px !important;
+    }
+}
