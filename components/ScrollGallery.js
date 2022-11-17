@@ -66,12 +66,11 @@ const ScrollGallery = () => {
             }
 
             }
-            useEffect (() => {
-                animate();
-            }, [ScrollGallery])
     }
 
-
+    useEffect (() => {
+        animate();
+    }, [])
 
     return (
         <>
