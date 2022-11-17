@@ -44,7 +44,7 @@ export default function Home() {
         <section className="header">
           <div className="header__container">
             <div className="header__content">
-              <Image src={reborn} alt="Logo reborn" className="reborn-logo" />
+              <Image src={reborn} alt="Logo reborn" className="reborn-logo" loading="eager" width={400} />
             </div>
           </div>
           <div className="header_bg"></div>
