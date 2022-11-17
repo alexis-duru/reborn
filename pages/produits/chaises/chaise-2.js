@@ -36,9 +36,14 @@ const chaise2 = () => {
                             <p className='product__right-ps'>PS : le paiement se fait directement à l’atelier pour que notre site soit le plus léger possible (#environmentfriendly) et histoire qu’on se fasse un petit coucou : chez nous, on privilégie le lien social !
                                 Vous pouvez réserver ce produit en cliquant sur le petit bouton juste en dessous.
                             </p>
-                            <div><Link href="/concept" className="btn product-btn">
+                            <div className='product__btn__container'><button disabled className="btn product-btn">
                                 Reserver
-                            </Link></div>
+                            </button><p>*La réservation est momentanément indisponible</p></div>
+                            <div className='product__seperator'></div>
+                            <div className='product__details'>
+                                <p>Son histoire</p>
+                                <p>Détails</p>
+                            </div>
                         </div>
                     </div>
                     <div className="product__background"><Image src={productBackground} alt="Illustration fond page produit"></Image></div>
