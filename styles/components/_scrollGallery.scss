@@ -6,6 +6,7 @@
     top: 0;
     width: 100%;
     height: 100vh;
+
     .container-title {
         margin: auto;
         width: 100%;
@@ -13,13 +14,16 @@
         justify-content: center;
         align-items: center;
         padding-top: 10rem;
+
         h1 {
             display: flex;
+
             span {
                 margin: 0px 10px;
             }
         }
     }
+
     .slider {
         position: absolute;
         top: 33px;
@@ -27,6 +31,7 @@
         width: 2800px;
         height: 90%;
         margin-left: 100px;
+
         .slider-inner {
             position: absolute;
             position: relative;
@@ -36,6 +41,7 @@
             display: flex;
             justify-content: space-around;
             transition: 0.3s ease-in-out;
+
             img {
                 position: absolute;
                 left: 0px;
@@ -43,10 +49,12 @@
                 height: 100%;
                 z-index: 10;
             }
+
             .wrapper-item {
                 height: 100%;
                 width: auto;
                 position: relative;
+
                 .product-number {
                     font-family: $kostania;
                     font-size: 8rem;
@@ -56,22 +64,27 @@
                     left: -50px;
                     z-index: 999;
                 }
+
                 .wrapper-description {
                     position: absolute;
                     bottom: -65px;
                     left: -50px;
                     z-index: 999;
+
                     h3 {
                         font-weight: 200;
                     }
+
                     p {
                         font-weight: 100;
                     }
                 }
             }
+
             .item {
                 position: relative;
                 width: 40vw;
+                min-width: 300px;
                 max-width: 400px;
                 height: 100%;
                 overflow: hidden;
@@ -79,10 +92,12 @@
                 transition: 0.3s ease-in-out;
                 background-color: transparent;
                 border: 2px solid white;
+
                 .wrapper {
                     height: 100%;
                     width: 100%;
                 }
+
                 .img {
                     position: absolute;
                     left: -100px;
@@ -91,23 +106,24 @@
                     height: 100%;
                     background-size: contain;
                     background-position: center;
+                    background-repeat: no-repeat;
                 }
             }
         }
-    
+
     }
+
     .progress-container {
         width: 100%;
         height: 2px;
         background: #a4441b48;
         position: absolute;
         bottom: 25px;
-      }
-      
-      .progress-bar {
+    }
+
+    .progress-bar {
         height: 4px;
         background: $primary-color;
         width: 0%;
-      }
+    }
 }
-
