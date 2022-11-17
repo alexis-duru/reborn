@@ -1,86 +1,88 @@
 #configurateur {
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    user-select: none;
-    height: 100vh;
-    width: 100vw;
-    background-color: $beige;
-    #ref {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: auto;
-        height: auto;
-        object-fit: cover;
-        object-position: center;
-    }
-}
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+  height: 100vh;
+  width: 100vw;
+  background-color: $beige;
 
-img {
+  #ref {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  img {
     display: block;
     width: 100%;
     height: auto;
     color: transparent;
     transform: scale(0.25);
   }
-  
-  .slider {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    cursor: grab;
-    z-index: 10;
-  }
-  .slider.is-grabbing {
-    cursor: grabbing;
-  }
-  
-  .slider__inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    pointer-events: none;
-    margin-left: 20%;
-  }
-  
-  .slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 24%;
-    transform: translate(-1%, -44%);
-    width: 60vw;
-    height: 60vh;
-    padding: 1rem;
-  }
-  
-  .slide__bg {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    bottom: 10%;
-    right: 10%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .slide__title {
-    position: relative;
-    color: #fff;
-    font-size: calc(1rem + 3vw);
-    font-weight: normal;
-    z-index: 2;
-  }
-  
-  .text {
-    position: absolute;
-    color: #666;
-    left: 4rem;
-    bottom: 3rem;
-  }
+}
+
+.slider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: grab;
+  z-index: 10;
+}
+
+.slider.is-grabbing {
+  cursor: grabbing;
+}
+
+.slider__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  pointer-events: none;
+  margin-left: 20%;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 24%;
+  transform: translate(-1%, -44%);
+  width: 60vw;
+  height: 60vh;
+  padding: 1rem;
+}
+
+.slide__bg {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+  right: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide__title {
+  position: relative;
+  color: #fff;
+  font-size: calc(1rem + 3vw);
+  font-weight: normal;
+  z-index: 2;
+}
+
+.text {
+  position: absolute;
+  color: #666;
+  left: 4rem;
+  bottom: 3rem;
+}
