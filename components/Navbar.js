@@ -33,6 +33,14 @@ export default function Header() {
                             <div className="menu-inner">
                                 <ul className="menu-nav">
                                     <li className="menu-nav-item">
+                                        <Link className="menu-nav-link" href="/">
+                                            <span className="barre"></span>
+                                            <span>
+                                                <div>Accueil</div>
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li className="menu-nav-item">
                                         <Link className="menu-nav-link" href="/concept">
                                             <span className="barre"></span>
                                             <span>
