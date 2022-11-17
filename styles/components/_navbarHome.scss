@@ -42,6 +42,7 @@
 
     &:hover {
       color: $black;
+      transition: 0s;
     }
   }
 
@@ -52,6 +53,7 @@
   div:nth-child(2) {
     width: 40%;
     text-align: center;
+    z-index: 100;
   }
 
   div:nth-child(3) {
@@ -83,11 +85,20 @@
   transition: 0.3s ease-in-out;
   position: relative;
   z-index: 9999;
+}
 
-  & img {
-    width: 16px;
-    margin-left: .6rem;
-  }
+.navbar__home__city {
+  color: $primary-color !important;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $white;
+  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  z-index: 9999;
 }
 
 .wrapper-city {
@@ -196,6 +207,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 4rem;
+    flex-direction: row;
 
     .menu-nav {
       align-items: flex-start;
@@ -237,7 +252,6 @@
   color: white;
   text-decoration: none;
   animation: 0.3s ease-in-out;
-  margin-left: 50px;
   font-family: $kostania !important;
   transition: 0.3s ease-in-out;
 
@@ -374,4 +388,16 @@
 .menu .images img {
   height: 250px;
   transform: translateY(102%);
+}
+
+@media screen and (max-width: 750px) {
+  .menu-nav-link {
+    font-size: 4rem !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .menu-nav-link {
+    font-size: 3rem !important;
+  }
 }
