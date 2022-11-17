@@ -29,6 +29,17 @@ html {
     }
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 6rem !important;
+        line-height: 6rem !important;
+    }
+
+    .span-font {
+        font-size: 7rem !important;
+    }
+}
+
 @media screen and (max-width: 500px) {
     h1 {
         font-size: 4rem !important;
