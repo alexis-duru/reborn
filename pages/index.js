@@ -65,7 +65,7 @@ export default function Home() {
         <section className="section-colored homepage__section">
           <div className="container">
             <h1>Les<span className="span-font"> petits nouveaux</span></h1>
-            <div className="homepage__content">
+            <div className="homepage__content content">
               <p>Chez Reborn, nous souhaitons permettre à chacun d'avoir des objets uniques, sans se ruiner et sans acheter du neuf !</p>
               <p>C'est pour cela que nous vous proposons de réparer vos objets d'une manière singulière ou d'acheter des pièces par nos soins à partir de vos dons.</p>
             </div>
@@ -77,7 +77,7 @@ export default function Home() {
         <section className="section-colored homepage__section">
           <div className="container">
             <h1>Fair un<span className='span-font'> don</span></h1>
-            <div className="dons__content">
+            <div className="dons__content content">
               <div className="dons__icon__container"> <Image src={donsIcon} alt="Icon de dons"></Image></div>
               <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
               <div className='btn__container'><Link href="/concept" className="btn primary-btn send-btn">
@@ -90,7 +90,7 @@ export default function Home() {
         <section className="section-colored homepage__section">
           <div className="container">
             <h1>Les<span className="span-font"> actus</span></h1>
-            <div className="homepage__content">
+            <div className="homepage__content content">
               <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
             </div>
             <div className='actus__container'>
