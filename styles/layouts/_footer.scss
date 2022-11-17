@@ -46,6 +46,14 @@ footer {
         justify-content: center;
         gap: 0.8rem;
 
+        @media screen and (max-width: 840px) {
+            display: block;
+
+            a {
+                display: block;
+            }
+        }
+
         * {
             opacity: .9;
         }
