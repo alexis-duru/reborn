@@ -46,7 +46,7 @@ const chaise3 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="product__background"><Image src={productBackground} alt="Illustration fond page produit"></Image></div>
+                    <div className="product__background"><Image loading="eager" src={productBackground} alt="Illustration fond page produit"></Image></div>
                 </section>
             </section>
             <Footer></Footer>
