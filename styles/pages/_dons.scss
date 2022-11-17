@@ -4,7 +4,6 @@
     overflow: hidden;
     padding-bottom: 60px;
 
-
     h1 {
         text-align: center;
         color: $primary-color;
@@ -26,7 +25,7 @@
     gap: 1rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .dons__content {
         width: 100%;
     }

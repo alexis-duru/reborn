@@ -9,9 +9,8 @@ import reborn from '../public/assets/img/home/home.gif';
 import donsIcon from '../public/assets/icons/reborn-dons.svg'
 import Link from 'next/link';
 import FeaturedProducts from '../components/FeaturedProducts';
-import Actualite1 from '../public/assets/icons/reborn-dons.svg'
-import Actualite2 from '../public/assets/icons/reborn-dons.svg'
-import conceptImage from '../public/assets/img/reborn-concept.webp'
+import Actualite1 from '../public/assets/img/home/reborn-actualite1.webp'
+import Actualite2 from '../public/assets/img/home/reborn-actualite2.webp'
 import Head from 'next/head'
 
 export default function Home() {
@@ -65,7 +64,7 @@ export default function Home() {
         <section className="section-colored homepage__section">
           <div className="container">
             <h1>Les<span className="span-font"> petits nouveaux</span></h1>
-            <div className="homepage__content">
+            <div className="homepage__content content">
               <p>Chez Reborn, nous souhaitons permettre à chacun d'avoir des objets uniques, sans se ruiner et sans acheter du neuf !</p>
               <p>C'est pour cela que nous vous proposons de réparer vos objets d'une manière singulière ou d'acheter des pièces par nos soins à partir de vos dons.</p>
             </div>
@@ -77,7 +76,7 @@ export default function Home() {
         <section className="section-colored homepage__section">
           <div className="container">
             <h1>Fair un<span className='span-font'> don</span></h1>
-            <div className="dons__content">
+            <div className="dons__content content">
               <div className="dons__icon__container"> <Image src={donsIcon} alt="Icon de dons"></Image></div>
               <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
               <div className='btn__container'><Link href="/concept" className="btn primary-btn send-btn">
@@ -90,18 +89,18 @@ export default function Home() {
         <section className="section-colored homepage__section">
           <div className="container">
             <h1>Les<span className="span-font"> actus</span></h1>
-            <div className="homepage__content">
+            <div className="homepage__content content">
               <p>Vous avez sans doute déjà vu nos équipes avec leur vélos cargo sillonner Bordeaux avec le sourire aux lèvres… c’est normal, on est toujours plus étonné par votre générosité ! Du coup, c’est tout simple, soit vous nous déposez les objets dont vous voulez vous débarrasser à notre atelier directement (ici), soit on vient les chercher chez vous, avec nos vélos cargo ou notre super camion électrique (uniquement à Bordeaux).</p>
             </div>
             <div className='actus__container'>
               <div className='actu__container'>
-                <Image src={conceptImage} alt=""></Image>
+                <Image src={Actualite1} alt="Photographie brocante des Quinquonces"></Image>
                 <p className='actu__content'>Les 25 et 26 novembre, c’est la brocante des Quinquonces !
                   L’équipe Reborn aura un stand autour duquel on pourra discuter et refaire le monde autour de nos toutes dernières créations. Vous aurez aussi la possibilité d’y réparer et personnaliser vos objets fraîchement chinés dans une ambiance conviviale et créative. On vous attend de pied ferme !
                 </p>
               </div>
               <div className='actu__container'>
-                <Image src={conceptImage} alt=""></Image>
+                <Image src={Actualite2} alt="Photographie plaque atelier reborn"></Image>
                 <p className='actu__content'>Les 3 et 4 décembre, c'est la fête chez Reborn ! On vous ouvre nos portes pour que vous puissiez découvrir les métiers associés à la réparation et échanger avec nos équipes sur leur rôle au sein de l'entreprise. On vous attend nombreux !
                 </p>
               </div>

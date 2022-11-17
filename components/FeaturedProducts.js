@@ -10,7 +10,7 @@ const FeaturedProducts = () => {
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="featured__product-number">N°1</h2>
-                            <Link href="/produits/chaises">
+                            <Link href="/produits/chaises/chaise-1">
                                 <span className='hidden'>Lien vers le produit nouveauté 1</span>
                                 <div className="item">
                                     <div className="wrapper">
@@ -30,7 +30,7 @@ const FeaturedProducts = () => {
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="featured__product-number">N°2</h2>
-                            <Link href="">
+                            <Link href="/produits/chaises/chaise-2">
                                 <span className='hidden'>Lien vers le produit nouveauté 1</span>
                                 <div className="item">
                                     <div className="wrapper">
@@ -51,7 +51,7 @@ const FeaturedProducts = () => {
                     <div className="card">
                         <div className="wrapper-item">
                             <h2 className="featured__product-number">N°3</h2>
-                            <Link href="">
+                            <Link href="/produits/chaises/chaise-3">
                                 <span className='hidden'>Lien vers le produit nouveauté 1</span>
                                 <div className="item">
                                     <div className="wrapper">
