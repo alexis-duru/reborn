@@ -2,6 +2,7 @@ import Link from "next/link";
 import fleche from '../public/assets/img/icones/Fleche.svg';
 import Image from 'next/image'
 import { useEffect } from "react";
+import Header  from "./NavbarHome";
 
 const ScrollGallery = () => {
 
@@ -77,9 +78,7 @@ const ScrollGallery = () => {
     return (
         <>
             <section id="scrollGallery">
-                <div className="container-title">
-                    <h1><span className="first-title">Les</span><span className="second-title">chaises</span></h1>
-                </div>
+                <Header />
                 <div className="slider">
                     <div className="slider-inner">
                         <Image src={fleche} alt="fleche" className="second-image" />

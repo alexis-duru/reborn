@@ -1,11 +1,11 @@
 #configurateur {
-  display: flex;
-  align-items: center;
+//   display: flex;
+//   align-items: center;
   position: relative;
-  overflow: hidden;
+//   overflow: hidden;
   user-select: none;
-  height: 100vh;
-  width: 100vw;
+  height: 50vh;
+  width: 100%;
   background-color: $beige;
 
   #ref {
@@ -17,14 +17,15 @@
     height: auto;
     object-fit: cover;
     object-position: center;
+    background-color: white;
   }
 
   img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 302px;
     color: transparent;
-    transform: scale(0.25);
+    // transform: scale(0.25);
   }
 }
 
@@ -44,7 +45,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   pointer-events: none;
   margin-left: 20%;
 }
@@ -54,23 +55,24 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 24%;
-  transform: translate(-1%, -44%);
+  top: 0%;
+//   transform: translate(-1%, -44%);
   width: 60vw;
-  height: 60vh;
+  height: 100%;
   padding: 1rem;
 }
 
-.slide__bg {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  bottom: 10%;
-  right: 10%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+// .slide__bg {
+//   position: absolute;
+//   top: 10%;
+//   left: 10%;
+//   bottom: 10%;
+//   right: 10%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   height: 100%;
+// }
 
 .slide__title {
   position: relative;

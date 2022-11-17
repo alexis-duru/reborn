@@ -6,7 +6,8 @@ import Image from 'next/image'
 import RebornFleche from '../public/assets/icons/reborn-fleche.svg'
 import RebornReparation from '../public/assets/icons/reborn-reparation.svg'
 import RebornReparationReception from '../public/assets/icons/reborn-reparation-reception.svg'
-import RebornReparationFini from '../public/assets/icons/reborn-reparation-fini.svg'
+import RebornReparationFini from '../public/assets/icons/reborn-reparation-fini.svg';
+import Configurateur from '../components/Configurateur';
 
 
 
@@ -37,6 +38,7 @@ const personnalisation = () => {
                             <p>Reborn propose un service de personnalisation de vos objets cassés avec des pièces détachées de votre choix. Un pied jaune sur une chaise de paille ou encore un vase réparé à partir de morceaux de céramiques récupérés, nous prenons en compte vos demandes et essayons d’y répondre au mieux, de la manière que vous voulez !
                             </p>
                         </div>
+                        <Configurateur />
                         {/*TODO*/}
                         <div className='btn__container'><button disabled className="btn primary-btn send-btn">
                             Reserver*
