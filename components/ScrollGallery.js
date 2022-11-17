@@ -7,70 +7,70 @@ const ScrollGallery = () => {
 
     // if (typeof window !== "undefined") {
 
-        const animate = () => {
-            let images = [...document.querySelectorAll('.img')];
-            let slider = document.querySelector('.slider');
-            let sliderWidth;
-            let imageWidth;
-            let current = 0;
-            let target = 0;
-            let ease = .03;
+    const animate = () => {
+        let images = [...document.querySelectorAll('.img')];
+        let slider = document.querySelector('.slider');
+        let sliderWidth;
+        let imageWidth;
+        let current = 0;
+        let target = 0;
+        let ease = .03;
 
-            window.addEventListener('resize', init);
+        window.addEventListener('resize', init);
 
-            images.forEach((img, idx) => {
-                img.style.backgroundImage = `url(../../assets/img/chaises/reborn-chaise-${idx + 1}.webp)`
+        images.forEach((img, idx) => {
+            img.style.backgroundImage = `url(../../assets/img/chaises/reborn-chaise-${idx + 1}.webp)`
+        })
+
+        function lerp(start, end, t) {
+            return start * (1 - t) + end * t;
+        }
+
+        function setTransform(el, transform) {
+            el.style.transform = transform;
+        }
+
+        function init() {
+            sliderWidth = slider.getBoundingClientRect().width;
+            imageWidth = sliderWidth / images.length;
+            document.body.style.height = `${sliderWidth - (window.innerWidth - window.innerHeight)}px`
+        }
+
+        function animate() {
+            current = parseFloat(lerp(current, target, ease)).toFixed(2);
+            target = window.scrollY;
+            setTransform(slider, `translateX(-${current}px)`)
+            animateImages();
+            requestAnimationFrame(animate);
+        }
+
+        function animateImages() {
+            let ratio = current / imageWidth;
+            let intersectionRatioValue;
+
+            images.forEach((image, idx) => {
+                intersectionRatioValue = ratio - (idx * 0.7);
+                setTransform(image, `translateX(${intersectionRatioValue * 70}px)`)
             })
+        }
 
-            function lerp(start, end, t) {
-                return start * (1 - t) + end * t;
-            }
+        init();
+        animate();
 
-            function setTransform(el, transform) {
-                el.style.transform = transform;
-            }
+        window.onscroll = function () { myFunction() };
 
-            function init() {
-                sliderWidth = slider.getBoundingClientRect().width;
-                imageWidth = sliderWidth / images.length;
-                document.body.style.height = `${sliderWidth - (window.innerWidth - window.innerHeight)}px`
-            }
+        function myFunction() {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
 
-            function animate() {
-                current = parseFloat(lerp(current, target, ease)).toFixed(2);
-                target = window.scrollY;
-                setTransform(slider, `translateX(-${current}px)`)
-                animateImages();
-                requestAnimationFrame(animate);
-            }
+    }
 
-            function animateImages() {
-                let ratio = current / imageWidth;
-                let intersectionRatioValue;
-
-                images.forEach((image, idx) => {
-                    intersectionRatioValue = ratio - (idx * 0.7);
-                    setTransform(image, `translateX(${intersectionRatioValue * 70}px)`)
-                })
-            }
-
-            init();
-            animate();
-
-            window.onscroll = function () { myFunction() };
-
-            function myFunction() {
-                const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                const scrolled = (winScroll / height) * 100;
-                document.getElementById("myBar").style.width = scrolled + "%";
-            }
-
-            }
-
-            useEffect (() => {
-                animate();
-            }, []);
+    useEffect(() => {
+        animate();
+    }, []);
     // }
 
 
@@ -89,13 +89,13 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 1</h3>
                                 <p className="product-material">Pied de metal</p>
                             </div>
-                            <Link href="/produits/chaises/chaise-1">
+                            <a href="/produits/chaises/chaise-1">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
                                     </div>
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                         <div className="wrapper-item">
                             <h2 className="product-number">N°2</h2>
