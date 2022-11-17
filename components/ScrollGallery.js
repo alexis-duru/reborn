@@ -89,13 +89,13 @@ const ScrollGallery = () => {
                                 <h3 className="product-name">Chaise 1</h3>
                                 <p className="product-material">Pied de metal</p>
                             </div>
-                            <Link href="/produits/chaises/chaise-1">
+                            <a href="/produits/chaises/chaise-1">
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img"></div>
                                     </div>
                                 </div>
-                            </Link>
+                            </a>
                         </div>
                         <div className="wrapper-item">
                             <h2 className="product-number">N°2</h2>
