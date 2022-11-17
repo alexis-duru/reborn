@@ -29,7 +29,7 @@ const concept = () => {
                             </div>
                             <div className="concept__subcontainer-right">
                                 <h2>Notre concept ? </h2>
-                                <p>Il est simple : donner une <strong>seconde vie</strong> à vos objets et ceux qu’on nous donne (on accepte les dons ici !).
+                                <p>Il est simple : donner une <strong>seconde vie</strong> à vos objets et ceux qu’on nous donne (on accepte les dons <a href='/dons'>ici !</a>).
                                     Fondée en 2022 par un petit groupe d’étudiants soucieux de participer à l"élaboration d’un nouveau mode de vie plus <strong>responsable</strong>, Reborn est une marque locale familiale et eco-friendly.
                                 </p>
                             </div>

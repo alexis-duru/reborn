@@ -46,6 +46,14 @@
         object-fit: cover;
         margin-bottom: -2px;
     }
+
+    a {
+        color: $primary-color;
+
+        &:hover {
+            color: #10212A;
+        }
+    }
 }
 
 .concept__background__title {
