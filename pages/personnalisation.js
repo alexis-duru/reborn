@@ -41,7 +41,7 @@ const personnalisation = () => {
                         {/* <Configurateur /> */}
 
                         <div className='div_video'><video className='personnalisation__video' src="/assets/videos/video.mp4" autoPlay loop muted></video></div>
-                        <div className="infos__video"><p>* Voici un aperçu de notre future configurateur d'objets</p></div>
+                        <div className="infos__video"><p>* Voici un aperçu de notre futur configurateur d'objets</p></div>
                         {/*TODO*/}
                         <div className='btn__container'><button disabled className="btn primary-btn send-btn">
                             Reserver*

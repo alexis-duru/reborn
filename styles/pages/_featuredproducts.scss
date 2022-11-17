@@ -8,6 +8,10 @@
     justify-content: space-evenly;
     padding: 120px 0;
 
+    .wrapper-item a:hover {
+        cursor: default;
+    }
+
     .container-title {
         width: 100%;
         display: flex;
