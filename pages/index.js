@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <Layout>
         <Cursor />
-        <Splashscreen />
+        {/*<Splashscreen />*/}
         <NavbarHome></NavbarHome>
         <div className='home'>
           <section className="header">
