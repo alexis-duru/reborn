@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const ScrollGallery = () => {
 
-    // if (typeof window !== "undefined") {
+    if (typeof window !== "undefined") {
 
     const animate = () => {
         let images = [...document.querySelectorAll('.img')];
@@ -71,7 +71,7 @@ const ScrollGallery = () => {
     useEffect(() => {
         animate();
     }, []);
-    // }
+    }
 
 
     return (
@@ -90,13 +90,13 @@ const ScrollGallery = () => {
                                 <p className="product-material">Pied de metal</p>
                             </div>
                             <Link href="/produits/chaises/chaise-1">
-                                <a>
+                                {/* <a> */}
                                     <div className="item">
                                         <div className="wrapper">
                                             <div className="img"></div>
                                         </div>
                                     </div>
-                                </a>
+                                {/* </a> */}
                             </Link>
                         </div>
                         <div className="wrapper-item">

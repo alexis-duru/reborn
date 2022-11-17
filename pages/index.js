@@ -27,6 +27,8 @@ export default function Home() {
   useEffect(() => {
     parallax();
   }, [])
+
+  
   return (
     <>
       <Layout>
