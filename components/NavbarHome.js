@@ -33,66 +33,66 @@ export default function Header() {
                             <div className="menu-inner">
                                 <ul className="menu-nav">
                                     <li className="menu-nav-item">
-                                        <Link className="menu-nav-link" href="/">
+                                        <a className="menu-nav-link" href="/">
                                             <span className="barre"></span>
                                             <span>
                                                 <div>Accueil</div>
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
 
                                     <li className="menu-nav-item">
-                                        <Link className="menu-nav-link" href="/concept">
+                                        <a className="menu-nav-link" href="/concept">
                                             <span className="barre"></span>
                                             <span>
                                                 <div id="link__1">Concept</div>
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
 
                                     <li className="menu-nav-item">
-                                        <Link className="menu-nav-link" href="/laboutique">
+                                        <a className="menu-nav-link" href="/laboutique">
                                             <span className="barre"></span>
                                             <span>
                                                 <div>Boutique</div>
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
 
                                     <li className="menu-nav-item">
-                                        <Link className="menu-nav-link" href="/personnalisation">
+                                        <a className="menu-nav-link" href="/personnalisation">
                                             <span className="barre"></span>
                                             <span>
                                                 <div>Personnalisation</div>
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
 
                                     <li className="menu-nav-item">
-                                        <Link className="menu-nav-link" href="/dons">
+                                        <a className="menu-nav-link" href="/dons">
                                             <span className="barre"></span>
                                             <span>
                                                 <div>Don</div>
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
 
                                     <li className="menu-nav-item">
-                                        <Link className="menu-nav-link" href="/contact">
+                                        <a className="menu-nav-link" href="/contact">
                                             <span className="barre"></span>
                                             <span>
                                                 <div>Contact</div>
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <Link href="/">
+                        <a href="/">
                             <Image className="navbar__home__image" src={logo} alt='Logo reborn'></Image>
-                        </Link>
+                        </a>
                     </div>
                     <div>
                         <div className="wrapper-city">
