@@ -156,6 +156,7 @@
   transition: 1.2s 0.1s cubic-bezier(0.35, 0, 0.07, 1);
 }
 
+
 #burger-toggle:checked~.menu .image-link:nth-child(1) img {
   transition-delay: 0.18s;
 }
@@ -174,10 +175,6 @@
 
 
 .burger-menu {
-  // --burger-menu-radius: 4em;
-  // position: fixed;
-  // top: 5vh;
-  // left: 5vw;
   z-index: 100;
   display: block;
   width: var(--burger-menu-radius);
@@ -253,7 +250,6 @@
   text-decoration: none;
   animation: 0.3s ease-in-out;
   font-family: $kostania !important;
-  transition: 0.3s ease-in-out;
 
   &:hover {
     .barre {
@@ -290,7 +286,7 @@
   overflow: hidden;
 }
 
-.menu-nav-link span div {
+.menu-nav-link span div  {
   transform: translateY(102%);
   text-transform: initial;
 }
