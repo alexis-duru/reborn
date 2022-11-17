@@ -22,9 +22,9 @@ export default function Footer() {
           </div>
         </div>
         <div className='credits'>
-          <p>2022 - REBORN - TOUS DROITS RESERVES</p>
+          <p>2022 - Reborn - Tous droits réservés</p>
           <Link href='/mentions-legales'>Mentions légales</Link>
-          <Link href='/politique-de-confidentialite'>Politique de confiendtialité</Link>
+          <Link href='/politique-de-confidentialite'>Politique de confidentialité</Link>
         </div>
       </footer>
     </>
