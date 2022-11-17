@@ -26,7 +26,7 @@ const chaise1 = () => {
                             <Image src={productImage} alt="Chaise reborn 1"></Image>
                         </div>
                         <div className="product__right">
-                            <p className='product__right-sub'>Chaise <span>//</span> fiche produit</p>
+                            <p className='product__right-sub'>Chaise <span>-</span> fiche produit</p>
                             <div className='product__right-pre'>
                                 <p>Description</p>
                                 <p>50€</p>
