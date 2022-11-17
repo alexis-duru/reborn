@@ -18,7 +18,7 @@ const dons = () => {
                 <meta name='description' content="Pour le moment, nous acceptons les chaises, les tables, les vases et toutes les pièces détachées ou matériaux associés à ces objets (céramique, bois, métal…). Dans un avenir proche, on espère étendre nos réparations à d’autres objets, et grâce à vous, c’est bien parti !" />
             </Head>
             <section className='wrapper'>
-                <div className='concept__background__title'><Image src={conceptBackground} alt=''></Image></div>
+                <div className='concept__background__title'><Image loading="eager" src={conceptBackground} alt=''></Image></div>
                 <Navbar></Navbar>
                 <section className="section-colored dons">
                     <div className="container">

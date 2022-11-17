@@ -14,6 +14,7 @@ const AllProducts = () => {
                         <div className="wrapper-item">
                             <h2 className="product-number">Chaises</h2>
                             <Link href="/produits/chaises">
+                                <span className='hidden'>Lien vers la catégorie chaises</span>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-chaises"></div>
@@ -26,6 +27,7 @@ const AllProducts = () => {
                         <div className="wrapper-item">
                             <h2 className="product-number">Tables</h2>
                             <Link href="">
+                                <span className='hidden'>Lien vers la catégorie tables</span>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-tables"></div>
@@ -40,6 +42,7 @@ const AllProducts = () => {
                         <div className="wrapper-item">
                             <h2 className="product-number">Vases</h2>
                             <Link href="">
+                                <span className='hidden'>Lien vers la catégorie vases</span>
                                 <div className="item">
                                     <div className="wrapper">
                                         <div className="img-boutique img-vases"></div>
