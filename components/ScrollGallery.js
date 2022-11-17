@@ -68,7 +68,7 @@ const ScrollGallery = () => {
             }
             useEffect (() => {
                 animate();
-            }, [])
+            },)
     }
 
 
